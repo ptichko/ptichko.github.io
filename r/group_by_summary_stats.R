@@ -17,10 +17,13 @@
 #' group_by_summary_stats(df, uptake, Type, Plant)
 group_by_summary_stats <- function(df, dv, ...){
 
+  # Written by Parker Tichko, May, 2020
+  # Contact: my first name DOT last name @ gmail.com
 
-  #require(dplyr)
-  #require(stringr)
-  #require(tibble)
+  require(dplyr)
+  require(stringr)
+  require(tibble)
+  
 
     # drops NAs
     na.rm = TRUE

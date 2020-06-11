@@ -5,7 +5,9 @@ title:  "R Function To Calculate Summary Statistics By Factors"
 
 # R Function To Calculate Summary Statistics By Factors
 
-Recently, I created a function called group_by_summary_stats() that quickly calculates basic summary stats  (e.g., N, mean, median, SD, SE, and range) for a single dependent variable for each combination of factors. The function uses several functions from the dplyr library, specifically the group_by() and summarise() functions, so you'll need to ensure you've installed dplyr.
+Recently, I created a function called group_by_summary_stats() that quickly calculates basic summary stats  (e.g., N, mean, median, SD, SE, and range) for a single dependent variable for each combination of factors. 
+
+**Note:** The function uses several functions from the dplyr library, specifically the group_by() and summarise() functions, so you'll need to ensure you've installed dplyr. You'll also need to have the stringr and tibble libraries installed.
 
 You can download the R function here <a href="/r/group_by_summary_stats.R" target="_blank"><i class="fa fa-file-text fa-md"></i></a> and load it into your R session using the source() function:
 
