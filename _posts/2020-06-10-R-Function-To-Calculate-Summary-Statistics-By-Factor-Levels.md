@@ -30,7 +30,7 @@ We can easily summarize the uptake of CO2 for each combination of the Plant and 
 group_by_summary_stats(df, uptake, Type, Plant)
 ```
 
-The output of group_by_summary_stats() is a table that summarizes the uptake of C02 consumed for each combination of the levels within the Type and Plant factors:
+The output of group_by_summary_stats() is a table that summarizes the uptake of CO2 consumed for each combination of the levels within the Type and Plant factors:
 
 ```
 # Groups:   Type [2]
