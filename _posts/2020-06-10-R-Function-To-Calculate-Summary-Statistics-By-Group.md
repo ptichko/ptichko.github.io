@@ -14,7 +14,7 @@ source("group_by_summary_stats.R")
 ```
 
 As an example, let's use the function to calculate some summary statistics on the CO2 dataset included with R. IMagine we ran an experiment with two factors, called Plant and Type, and one dependent variable, called Amount (i.e., the amount of C02 consumed). I want to quickly summarize the amount of CO2 consumed for each combination of Plant and Type.
-
+First, let's instantiate the CO2 dataset in R.
 ```r
 data("CO2")  
 df <- CO2  
