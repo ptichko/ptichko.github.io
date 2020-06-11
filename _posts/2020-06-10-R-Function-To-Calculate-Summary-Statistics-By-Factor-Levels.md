@@ -15,7 +15,7 @@ You can download the R function here <a href="/r/group_by_summary_stats.R" targe
 source("group_by_summary_stats.R")
 ```
 
-As an example, let's use the function to calculate some summary statistics on the CO2 dataset included with R. Imagine we ran an experiment with two factors, called Plant and Type, and one dependent variable, called Amount (i.e., the amount of C02 consumed). I want to quickly summarize the amount of CO2 consumed for each combination of Plant and Type.
+As an example, let's use the function to calculate some summary statistics on the CO2 dataset included with R. Imagine we ran an experiment with two factors, called Type and Plant, and one dependent variable, called uptake (i.e., the amount of C02 uptake). I want to quickly summarize the uptake of CO2 consumed for each combination of Plant and Type.
 First, let's instantiate the CO2 dataset in R:
 ```
 data("CO2")  
@@ -23,14 +23,14 @@ df <- CO2
 head(df)
 ```
 
-We can easily summarize the amount of CO2 consumed for each combination of the Plant and Type factors by using group_by_summary_stats(). To do so, call group_by_summary_stats(), first passing through the data frame, then the name of the dependent variable, and finally the names of any factors.
+We can easily summarize the uptake of CO2 for each combination of the Plant and Type factors by using group_by_summary_stats(). To do so, call group_by_summary_stats(), first passing through the data frame (df), then the name of the dependent variable (uptake), and finally the names of any factors (Type, Plant).
 **Note:** Because of the way dplyr works, you must pass through the names of your variables **without** quotation marks:
 
 ```
 group_by_summary_stats(df, uptake, Type, Plant)
 ```
 
-The output of group_by_summary_stats() is a table that summarizes the Amount of C02 consumed for each combination of the levels within the Type and Plant factors:
+The output of group_by_summary_stats() is a table that summarizes the uptake of C02 consumed for each combination of the levels within the Type and Plant factors:
 
 ```
 # Groups:   Type [2]
