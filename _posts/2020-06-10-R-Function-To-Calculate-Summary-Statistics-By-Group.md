@@ -5,7 +5,7 @@ title:  "R Function To Calculate Summary Statistics By Group"
 
 # R Function To Calculate Summary Statistics By Grouping Variables
 
-Recently, I created a function called group_by_summary_stats() that quickly calculates basic summary stats  (e.g., N, mean, median, SD, SE, and range) for a single dependent variable for each combination of independent variables in a factorial design. The function uses several functions from the dplyr library, specifically the group_by() and summarise() functions, so you'll need to ensure you've installed dplyr.
+Recently, I created a function called group_by_summary_stats() that quickly calculates basic summary stats  (e.g., N, mean, median, SD, SE, and range) for a single dependent variable for each combination of factors. The function uses several functions from the dplyr library, specifically the group_by() and summarise() functions, so you'll need to ensure you've installed dplyr.
 
 You can download the R function here <a href="/r/group_by_summary_stats.R" target="_blank"><i class="fa fa-file-text fa-md"></i></a> and load it into your R session using the source() function:
 
@@ -13,9 +13,9 @@ You can download the R function here <a href="/r/group_by_summary_stats.R" targe
 source("group_by_summary_stats.R")
 ```
 
-As an example, let's use the function to calculate some summary statistics on the CO2 dataset included with R. IMagine we ran an experiment with two factors, called Plant and Type, and one dependent variable, called Amount (i.e., the amount of C02 consumed). I want to quickly summarize the amount of CO2 consumed for each combination of Plant and Type.
-First, let's instantiate the CO2 dataset in R.
-```r
+As an example, let's use the function to calculate some summary statistics on the CO2 dataset included with R. Imagine we ran an experiment with two factors, called Plant and Type, and one dependent variable, called Amount (i.e., the amount of C02 consumed). I want to quickly summarize the amount of CO2 consumed for each combination of Plant and Type.
+First, let's instantiate the CO2 dataset in R:
+```
 data("CO2")  
 df <- CO2  
 head(df)
