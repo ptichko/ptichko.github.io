@@ -17,25 +17,30 @@ This R function allows a user to reverse code a scalar or vector of scores using
 
 
 ```
-reverseCode(2) # reverse code "2" to a "4" on a Likert scale of 1-5
+# reverse code "2" to a "4" on a Likert scale of 1-5
+reverseCode(2)
 
+# output
 [1] 4
 ```
 
 Now, let's reverse code a vector of scores, containing scores sequentially increasing from 2 to 7, on a Likert scale of 1-to-7. We can use the "min" and "max" arguments to define the range of our Likert scale. Here, we'll set the min = 1 and the max = 7 to reflect a Likert scale from 1 to 7. We'll pass through 2:7, reflecting a vector of scores ranging from 2 to 7:
 
-
 ```
-reverseCode(2:7, min = 1, max = 7) # reverse code a vector of scores on a Likert scale of 1-7
+# reverse code a vector of scores on a Likert scale of 1-7
+reverseCode(2:7, min = 1, max = 7) 
 
+# output
 [1] 6 5 4 3 2 1
 ```
 
 We can also use the function to reverse code binary reponses. For instance, let's assume we have a binary response of 0 and 1. Let's reverse code a score of "1" to a "0" by setting the "min" and "max" arguments to 0 and 1, respectively: 
 
 ```
-reverseCode(1, min = 0, max = 1) # reverse code binary response
+ # reverse code binary response
+reverseCode(1, min = 0, max = 1)
 
+# output
 [1] 0
 ```
 

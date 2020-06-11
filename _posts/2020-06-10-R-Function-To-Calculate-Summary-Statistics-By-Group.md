@@ -21,15 +21,16 @@ df <- CO2
 head(df)
 ```
 
-We can easily summarize the amount of CO2 consumed for each combination of the Plant and Type factors by using group_by_summary_stats(). To do so, call group_by_summary_stats(), first passing in the data frame, then the dependent variable, and finally the names of any factors that correspond to experimental groups.
-The output of group_by_summary_stats() is a table that summarizes the Amount of C02 consumed for each combination of the Type and Plant factors.
+We can easily summarize the amount of CO2 consumed for each combination of the Plant and Type factors by using group_by_summary_stats(). To do so, call group_by_summary_stats(), first passing through the data frame, then the name of the dependent variable, and finally the names of any factors.
 **Note:** Because of the way dplyr works, you must pass through the names of your grouping variables **without** quotation marks:
-
 
 ```
 group_by_summary_stats(df, uptake, Type, Plant)
+```
 
+The output of group_by_summary_stats() is a table that summarizes the Amount of C02 consumed for each combination of levels within the Type and Plant factors:
 
+```
 # Groups:   Type [2]
    Type        Plant     N  Mean Median    SD    SE Range    
    <fct>       <ord> <int> <dbl>  <dbl> <dbl> <dbl> <chr>    
@@ -45,6 +46,4 @@ group_by_summary_stats(df, uptake, Type, Plant)
 10 Mississippi Mc2       7  12.1   12.5  2.19 0.827 7.7-14.4 
 11 Mississippi Mc3       7  17.3   17.9  3.05 1.15  10.6-19.9
 12 Mississippi Mc1       7  18     18.9  4.12 1.56  10.5-22.2
-
-
 ```
