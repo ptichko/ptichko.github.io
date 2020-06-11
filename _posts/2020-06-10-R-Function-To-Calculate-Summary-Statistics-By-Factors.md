@@ -3,9 +3,9 @@ layout: post
 title:  "R Function To Calculate Summary Statistics By Factors"
 ---
 
-# R Function To Calculate Summary Statistics By Factors
+# R Function To Calculate Summary Statistics For Each Combination of Factor Levels
 
-Recently, I created a function called group_by_summary_stats() that quickly calculates basic summary stats  (e.g., N, mean, median, SD, SE, and range) for a single dependent variable for each combination of factors. 
+Recently, I created a function called group_by_summary_stats() that quickly calculates basic summary stats  (e.g., N, mean, median, SD, SE, and range) for a single dependent variable for each combination of factor levels. 
 
 **Note:** The function uses several functions from the dplyr library, specifically the group_by() and summarise() functions, so you'll need to ensure you've installed dplyr. You'll also need to have the stringr and tibble libraries installed.
 
@@ -30,7 +30,7 @@ We can easily summarize the amount of CO2 consumed for each combination of the P
 group_by_summary_stats(df, uptake, Type, Plant)
 ```
 
-The output of group_by_summary_stats() is a table that summarizes the Amount of C02 consumed for each combination of levels within the Type and Plant factors:
+The output of group_by_summary_stats() is a table that summarizes the Amount of C02 consumed for each combination of the levels within the Type and Plant factors:
 
 ```
 # Groups:   Type [2]
