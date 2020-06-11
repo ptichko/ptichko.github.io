@@ -17,7 +17,9 @@ As an example, let's use the function to calculate some summary statistics on th
 
 ```r
 data("CO2")
+
 df <- CO2
+
 head(df)
 ```
 
@@ -33,8 +35,8 @@ group_by_summary_stats(df, uptake, Type, Plant)
 
 The output of running group_by_summary_stats() with the above arguments is a nice table that summarizes the Amount of C02 consumed for each combination of the Type and Plant factors: 
 
-
- Groups:   Type [2]
+```r
+# Groups:   Type [2]
    Type        Plant     N  Mean Median    SD    SE Range    
    <fct>       <ord> <int> <dbl>  <dbl> <dbl> <dbl> <chr>    
  1 Quebec      Qn1       7  33.2   35.3  8.21 3.10  16-39.7  
@@ -49,3 +51,5 @@ The output of running group_by_summary_stats() with the above arguments is a nic
 10 Mississippi Mc2       7  12.1   12.5  2.19 0.827 7.7-14.4 
 11 Mississippi Mc3       7  17.3   17.9  3.05 1.15  10.6-19.9
 12 Mississippi Mc1       7  18     18.9  4.12 1.56  10.5-22.2
+
+```
