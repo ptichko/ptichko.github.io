@@ -17,10 +17,8 @@ As an example, let's use the function to calculate some summary statistics on th
 
 ```r
 data("CO2")
-
-df <- CO2
-
-head(df)
+	df <- CO2
+		head(df)
 ```
 
 We can easily summarize the amount of CO2 consumed for each combination of the Plant and Type factors by using group_by_summary_stats(). To do so, call group_by_summary_stats(), first passing in the data frame, then the dependent variable, and finally the names of any factors that correspond to experimental groups.
