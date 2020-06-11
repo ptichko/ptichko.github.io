@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "R Function To Calculate Summary Statistics By Factors"
+title:  "R Function To Calculate Summary Statistics By Factor Levels"
 ---
 
 # R Function To Calculate Summary Statistics For Each Combination of Factor Levels
