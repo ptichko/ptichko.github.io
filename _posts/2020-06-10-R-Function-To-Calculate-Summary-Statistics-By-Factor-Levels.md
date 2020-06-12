@@ -15,7 +15,7 @@ You can download the R function here <a href="/r/group_by_summary_stats.R" targe
 source("group_by_summary_stats.R")
 ```
 
-As an example, let's use the function to calculate some summary statistics on the CO2 dataset included with R. Imagine we ran an experiment with two factors, called Type and Plant, and one dependent variable, called uptake (i.e., the amount of C02 uptake). I want to quickly summarize the uptake of CO2 consumed for each combination of Plant and Type.
+As an example, let's use the function to calculate some summary statistics on the CO2 dataset included with R. Imagine we ran an experiment with two factors, called Type and Plant, and one dependent variable, called uptake (i.e., the amount of CO2 uptake). I want to quickly summarize the uptake of CO2 consumed for each combination of Plant and Type.
 First, let's instantiate the CO2 dataset in R:
 ```
 data("CO2")  
