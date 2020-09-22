@@ -10,6 +10,8 @@ ___
 
 ### Publications
 
+**Tichko P.**, Kim, J.C., Large, E., & Loui, P. (2020). [Integrating music-based interventions with Gamma-frequency stimulation: Implications for healthy aging.](https://psyarxiv.com/2ykfm) PsyArxiv (Pre Print).
+
 **Tichko P.** & Loui, P. (2020). [Deutsch, D. Musical illusions and phantom words: How music and speech unlock mysteries of the brain.](https://doi.org/10.1177/0301006620924926) Perception.
 
 **Tichko P.** & Large, E.W. (2019). [Modeling infants’ perceptual narrowing to musical rhythm: Neural oscillation and Hebbian learning.](https://doi.org/10.1111/nyas.14050) Annals of the New York Academy of Sciences.
