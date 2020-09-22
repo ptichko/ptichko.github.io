@@ -69,7 +69,8 @@ The output is a tibble that summarizes the d-prime scores and the rates of corre
 # Calculate d-prime scores for each participant.
 dprime_post(df.dprime, participant)
 
-> dprime_post(df.dprime, participant)
+dprime_post(df.dprime, participant)
+
 # A tibble: 4 x 11
   participant    Hits Misses FalseAlarms CorrectRejs Total HitRate MissRate FalseAlarmRate CorrectRejRate Dprime
   <fct>         <dbl>  <dbl>       <dbl>       <dbl> <dbl>   <dbl>    <dbl>          <dbl>          <dbl>  <dbl>
