@@ -36,7 +36,9 @@
 #' # calculate dprime
 #' dprime_post(df.dprime, participant)
 dprime_post <- function(df, ...){
-
+  
+  # Parker Tichko, 2020
+  
   require(dplyr)
   require(tibble)
 

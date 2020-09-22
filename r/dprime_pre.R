@@ -30,6 +30,8 @@
 #'
 dprime_pre <- function(stim1_col, stim2_col, correct_col, data){
 
+  # Parker Tichko, 2020
+
   # Compute sub-categories for d-prime stats
   for(i in 1:length(data[[stim1_col]])){
 
