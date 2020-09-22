@@ -5,12 +5,9 @@ title:  "R Functions To Calculate D-Prime"
 
 # R Functions To Calculate D-Prime
 
-For a recent project, I needed to calculate d-prime statistics in R. But also as an exercise to write functions using base R and the tidyverse. 
+For a recent research project, I needed to calculate d-prime statistics in R, so I wrote two R functions to do so. You can download the R functions here <a href="/r/dprime_pre.R" target="_blank"><i class="fa fa-file-text fa-md"></i></a> and here <a href="/r/dprime_post.R" target="_blank"><i class="fa fa-file-text fa-md"></i></a>, then load them into your R session using the source() function:
 
 **Note:** The dprime_post() function requires the dplyr and tibble libraries.
-
-You can download the R functions here <a href="/r/dprime_pre.R" target="_blank"><i class="fa fa-file-text fa-md"></i></a> and here <a href="/r/dprime_post.R" target="_blank"><i class="fa fa-file-text fa-md"></i></a>, then load them into your R session using the source() function:
-
 ```
 source("dprime_pre.R") # d-prime pre-processing
 source("dprime_post.R") # d-prime post-processing
@@ -33,11 +30,19 @@ df<- data.frame(participant = c(rep("Participant 1",24), rep("Participant 2",24,
 					   
 # Reorder by participant
 df <- df[order(df[,"participant"]),] 
- 
+
+# View first rows of dataframe 
 head(df)
+    participant  stim1  stim2 correct
+1 Participant 1  Apple  Apple       1
+2 Participant 1 Orange Orange       1
+3 Participant 1 Orange  Apple       0
+4 Participant 1  Apple Orange       0
+5 Participant 1  Apple  Apple       1
+6 Participant 1 Orange Orange       0
 ```
 
-First, we can use dprime_pre() to calculate d-prime sub-categories for each trial. The function returns a datafarme with new columns that summarizes whether a particular trial was a correct rejection, hit, miss, or false alarm.  
+First, we can use dprime_pre() to calculate d-prime sub-categories for each trial. The function returns a dataframe with new columns that summarizes whether a particular trial was a correct rejection, hit, miss, or false alarm.  
 To do so, call dprime_pre(), first passing through the name of the column with the first image, "stim1", the name of the column with the second image, "stim2", then the name of the column with the dependent variable, "correct", and finally the name of the dataframe.
 
 ```
@@ -56,10 +61,10 @@ head(df.dprime)
 
 ```
 
-Next, we can use the sub-categories computed by dprime_pre() to calculate our d-prime scores for each participant. Call dprime_post() pass through the dataframe with d-prime subcategories, and then "participant" column (without quotes).
-**Note:** Because of the way dplyr works, you must pass through the names of your variables **without** quotation marks:
+Next, we can use the sub-categories computed by dprime_pre() to calculate our d-prime scores for each participant. Call dprime_post(), pass through the dataframe with d-prime subcategories, and then pass through "participant" column (without quotes).
+**Note:** Because this function uses dplyr, you must pass through the names of your variables **without** quotation marks:
 
-The output is a tibble that summarizes the d-prime score and the rates of correct rejections, hits, misses, and false alarms for each participant. Note how dprime_post() also correctly handles a d-prime score of 0 by adding a small non-zero number to the HitRate and MissRate, if these are equal to 0.
+The output is a tibble that summarizes the d-prime scores and the rates of correct rejections, hits, misses, and false alarms for each participant. Note how dprime_post() also correctly handles a d-prime score of 0 by adding a small non-zero number to the HitRate and MissRate, if these are equal to 0.
 ```
 # Calculate d-prime scores for each participant.
 dprime_post(df.dprime, participant)
