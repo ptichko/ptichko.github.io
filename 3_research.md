@@ -56,5 +56,5 @@ ___
 
 In collaboration with my colleague (and former PhD adviser!) Erika Skoe, I created a sample library of neural responses that are mapped to the piano keyboard. The project, called [Neural Symphony](https://skoelab.uconn.edu/neural-symphony/), enables anyone to produce, play, and compose music using the unique timbre of the brain. 
 
-In my teaching, I've found that this project is an excellent demonstration of phase-locking dynamics in the auditory system and illustrates how the "arts" and the "sciences" can be beautifully united.
+In my teaching, I've found that this project is an excellent demonstration of phase-locking dynamics in the auditory system and illustrates how the "arts" and the "sciences" can be beautifully united. The project was also featured on an episode of the University of Connecticut's podcast. You can listen [here](https://uconn.edu/uconn360-podcast/episode-3-play-us-a-song-youre-the-piano-brain/).
 
