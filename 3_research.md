@@ -53,7 +53,7 @@ In a seperate line of work, I am investigating phase-locked responses in the aud
 
 ___
 
-### Music-Based Interventions for Dementia and Cognitive Decline
+### Music-Based Interventions for Dementia
 
 <div class="left_figure"><figure>
 	<img src="/img/GammaMBIs.png" alt="Gamma Music-Based Interventions (Gamma-MBIs)" style="float: left" width="400" hspace="25" vspace="25" />
