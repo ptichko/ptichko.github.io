@@ -10,7 +10,6 @@ header-img: "img/Banner.jpg"
 	<figcaption>
                 <font size="2">Meeting Jonathan the Husky, 2019.</font>
     </figcaption>
-	</a>
 </div>
 
 <div style="float: left; padding-right: 25px; padding-bottom: 25px">
@@ -18,7 +17,6 @@ header-img: "img/Banner.jpg"
 	<figcaption>
                 <font size="2">Running an infant music study, Las Vegas, 2011.</font>
     </figcaption>
-	</a>
 </div>
 
 I’m a developmental and cognitive neuroscientist interested in the dynamics of language, music, and infant-child development. In my research, I use computational and dynamical-systems modeling (e.g., neural networks, oscillatory networks), electrophysiology (e.g., EEG), and behavioral measurements to understand how infants and children acquire language and music skills. 
