@@ -12,7 +12,7 @@ Click for my [google scholar](https://scholar.google.com/citations?user=HYUPaSIA
 <center><figure>
         <img src="/img/PhillipsSilver_Network.png" alt="Rhythm Model" width="500" hspace="25" vspace="25" />
         <figcaption>
-                <font size="2">Developmental model of infant rhythm perception (Tichko et al., under review).</font>
+                <font size="2">Dynamical systems model of infant rhythm perception (Tichko et al., under review).</font>
         </figcaption>
 </figure></center>
 
