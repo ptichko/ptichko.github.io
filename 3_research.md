@@ -16,8 +16,11 @@ Click for my [google scholar](https://scholar.google.com/citations?user=HYUPaSIA
         </figcaption>
 </figure></center>
 
-In my research, I investigate how infants and children learn about the complex auditory structures that constitute their environment, such as music and speech. Here, I adopt a systems framework of infant and child development, where knowledge about complex auditory structures is thought to arise from organism-environment interactions that begin during the pre-natal period. To probe how children learn about auditory structures, I employ methodologies that capture system-wide dynamics at the neural level (e.g., electroencephalography) and behavioral level (e.g., perceptual paradigms). More recently, I’ve begun to incorporate dynamical models of neural oscillations to examine the mechanisms (e.g., self-organization, pattern formation) underlying infants’ and children’s processing of musical structure. Additionally, I am also interested in using these models to generate developmental predictions of music acquisition over developmental timescales. While contributing to a basic body of scientific knowledge, this research also has strong implications for intervention and remediation strategies involving music, such rhythm and music therapy for reading-related disorders (e.g., dyslexia). 
+I’m a computational, developmental, and cognitive neuroscientist broadly interested in **rhythm cognition**—our capacity to perceive, predict, segment, comprehend, and entrain to socially meaningful auditory rhythms, such as music and spoken language. Specifically, my work examines the neurobiological and developmental foundations of how brain rhythms, and neural plasticity involving brain rhythms, enable complex perception, action, and cognition to rhythmic sounds, most notably in the domain of music, and how these processes can be facilitated by prior experience, such as musical training and exposure to certain rhythmic structures, over the lifespan. I am also interested in how impairments in rhythm processing and brain rhythms manifest in cognitive and developmental disorders (e.g., developmental dyslexia, Alzheimer’s disease) and whether non-invasive interventions which modulate brain rhythms can remediate cognitive impairments in clinical populations. 
 
+To examine the neurobiological and developmental mechanisms underlying rhythm cognition, my research uses a combination of computational and dynamical systems modeling, electrophysiological methods, and behavioral measures to investigate how our rhythmic abilities, and the neural dynamics that support them, change across the lifespan.
+
+I'm also have pet interests in dynamical systems approaches to perception-action and development, the limits of reductionism in developmental theory (e.g., developmental systems theory) and the ecological psychology J.J. Gibson.
 ___
 
 ## Research Projects
@@ -50,11 +53,25 @@ In a seperate line of work, I am investigating phase-locked responses in the aud
 
 ___
 
+### Music-Based Interventions for Dementia and Cognitive Decline
+
+<div class="left_figure"><figure>
+	<img src="/img/GammaMBIs.png" alt="Gamma Music-Based Interventions (Gamma-MBIs)" style="float: left" width="400" hspace="25" vspace="25" />
+	<figcaption>
+		<font size="2"><i> Schematic of the proposed effects of Gamma-MBIs on dementia-related pathophysiologies (Tichko, Kim, Large, and Loui, in press).</i></font>
+	</figcaption>
+</figure></div>
+
+Recently, I've become interested in how the rhythmic properties of music can be leveraged as a non-invasive form of brain stimulation. My colleagues and I are currently developing a non-invasive music-based intervention for treating dementia and cognitive decline during aging that uses both natural music and visual Gamma stimulation to target biomarkers of dementia and improve cognition.
+
+___
+
+
 ## Scientific Outreach 
 
 ### Neural Symphony
 
-In collaboration with my colleague (and former PhD adviser!) Erika Skoe, I created a sample library of neural responses that are mapped to the piano keyboard. The project, called [Neural Symphony](https://skoelab.uconn.edu/neural-symphony/), enables anyone to produce, play, and compose music using the unique timbre of the brain. 
+In collaboration with my colleague (and former PhD adviser) Erika Skoe, I created a sample library of neural responses that are mapped to the piano keyboard. The project, called [Neural Symphony](https://skoelab.uconn.edu/neural-symphony/), enables anyone to produce, play, and compose music using the unique timbre of the brain. 
 
 In my teaching, I've found that this project is an excellent demonstration of phase-locking dynamics in the auditory system and illustrates how the "arts" and the "sciences" can be beautifully united. The project was also featured on an episode of the University of Connecticut's podcast. You can listen [here](https://uconn.edu/uconn360-podcast/episode-3-play-us-a-song-youre-the-piano-brain/).
 
