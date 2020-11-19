@@ -21,6 +21,7 @@ To examine the neurobiological and developmental mechanisms underlying rhythm co
 I'm also have pet interests in dynamical systems approaches to perception-action and development, the limits of reductionism in developmental theory (e.g., developmental systems theory), and the ecological psychology J.J. Gibson.
 
 Click for my [google scholar](https://scholar.google.com/citations?user=HYUPaSIAAAAJ&hl=en&authuser=1) and [coding projects](https://github.com/ptichko). 
+
 ___
 
 ## Research Projects
