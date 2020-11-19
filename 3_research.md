@@ -10,9 +10,9 @@ Click for my [google scholar](https://scholar.google.com/citations?user=HYUPaSIA
 ## General Research Interests
 
 <center><figure>
-        <img src="/img/Gottlieb2007.png" alt="Systems View of Ontogeny" width="500" hspace="25" vspace="25" />
+        <img src="/img/PhillipsSilver_Network.png" alt="Rhythm Model" width="500" hspace="25" vspace="25" />
         <figcaption>
-                <font size="2">Systems View of Ontogeny (Gottlieb, 2007).</font>
+                <font size="2">Developmental model of infant rhythm perception (Tichko et al., under review).</font>
         </figcaption>
 </figure></center>
 
