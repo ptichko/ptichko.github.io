@@ -20,7 +20,7 @@ I’m a computational, developmental, and cognitive neuroscientist broadly inter
 
 To examine the neurobiological and developmental mechanisms underlying rhythm cognition, my research uses a combination of computational and dynamical systems modeling, electrophysiological methods, and behavioral measures to investigate how our rhythmic abilities, and the neural dynamics that support them, change across the lifespan.
 
-I'm also have pet interests in dynamical systems approaches to perception-action and development, the limits of reductionism in developmental theory (e.g., developmental systems theory) and the ecological psychology J.J. Gibson.
+I'm also have pet interests in dynamical systems approaches to perception-action and development, the limits of reductionism in developmental theory (e.g., developmental systems theory), and the ecological psychology J.J. Gibson.
 ___
 
 ## Research Projects
