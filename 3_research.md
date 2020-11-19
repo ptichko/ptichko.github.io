@@ -58,7 +58,7 @@ ___
 <div class="left_figure"><figure>
 	<img src="/img/GammaMBIs.png" alt="Gamma Music-Based Interventions (Gamma-MBIs)" style="float: left" width="400" hspace="25" vspace="25" />
 	<figcaption>
-		<font size="2"><i> Schematic of the proposed effects of Gamma-MBIs on dementia-related pathophysiologies (Tichko, Kim, Large, and Loui, in press).</i></font>
+		<font size="2"><i>Gamma-MBIs & dementia-related pathophysiologies (Tichko, Kim, Large, and Loui, in press).</i></font>
 	</figcaption>
 </figure></div>
 
