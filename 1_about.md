@@ -19,7 +19,7 @@ header-img: "img/Banner.jpg"
     </figcaption>
 </div>
 
-I’m a developmental and cognitive neuroscientist interested in the dynamics of language, music, and infant-child development. In my research, I use computational and dynamical-systems modeling (e.g., neural networks, oscillatory networks), electrophysiology (e.g., EEG), and behavioral measurements to understand how infants and children acquire language and music skills. 
+I’m a developmental and cognitive neuroscientist interested in the computational, developmental, and neurobiological principles of music and language. In my research, I use a combination of computational and dynamical-systems modeling (e.g., neural networks, oscillatory networks), electrophysiology (e.g., EEG), and behavioral measurements to understand how infants and children acquire language and music skills. 
 Before entering graduate school, I was the lab manager for Dr. Erin E. Hannon’s [Auditory Cognition and Development Lab](https://www.ehannon.faculty.unlv.edu//Home.html) for 2+ years. 
 I received my PhD., as a National Science Foundation (NSF) IGERT Fellow in [Language Plasticity](http://www.igert.org/projects/282.html) at the University of Connecticut, under the guidance of Drs. Ed Large and Erika Skoe in the [Music Dynamics Lab](https://musicdynamicslab.uconn.edu/) and [Auditory Brain Research (ABR) Lab](https://skoelab.uconn.edu/). Currently, I am a post-doctoral researcher in the [MIND Lab](https://web.northeastern.edu/mindlab/) at Northeastern University under the advisement of Dr. Psyche Loui.
 
