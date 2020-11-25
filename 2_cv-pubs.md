@@ -12,7 +12,7 @@ ___
 
 **Tichko P.**, Kim, J.C., & Large, E. (Under Review). [Bouncing the Network: A Dynamical Systems Model of Auditory-Vestibular Interactions Underlying Infants' Perception of Musical Rhythm](https://www.researchgate.net/publication/340967869_Bouncing_the_Network_A_Dynamical_Systems_Model_of_Auditory-Vestibular_Interactions_Underlying_Infants'_Perception_of_Musical_Rhythm) ResearchGate (Pre Print). 
 
-**Tichko P.**, Kim, J.C., Large, E., & Loui, P. (2020). [Integrating music-based interventions with Gamma-frequency stimulation: Implications for healthy aging.](https://onlinelibrary.wiley.com/doi/abs/10.1111/ejn.15059?af=R) European Journal of Neurosciences.
+**Tichko P.**, Kim, J.C., Large, E., & Loui, P. (2020). [Integrating music-based interventions with Gamma-frequency stimulation: Implications for healthy aging.](https://onlinelibrary.wiley.com/doi/abs/10.1111/ejn.15059?af=R) European Journal of Neuroscience.
 
 **Tichko P.** & Loui, P. (2020). [Deutsch, D. Musical illusions and phantom words: How music and speech unlock mysteries of the brain.](https://doi.org/10.1177/0301006620924926) Perception.
 
