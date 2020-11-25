@@ -14,9 +14,9 @@ header-img: "img/Banner.jpg"
         </figcaption>
 </figure></center>
 
-Broadly, I am interested in **rhythm cognition**—our capacity to perceive, predict, segment, comprehend, and entrain to socially meaningful auditory rhythms, such as music and spoken language. Specifically, my work examines the neurobiological and developmental foundations of how brain rhythms, and neural plasticity involving brain rhythms, enable complex perception, action, and cognition to rhythmic sounds, most notably in the domain of music, and how these processes can be facilitated by prior experience, such as musical training and exposure to certain rhythmic structures, over the lifespan. I am also interested in how impairments in rhythm processing and brain rhythms manifest in cognitive and developmental disorders (e.g., developmental dyslexia, Alzheimer’s disease) and whether non-invasive interventions which modulate brain rhythms can remediate cognitive impairments in clinical populations. 
+Broadly, I am interested in the neurobiological and developmental foundations of **rhythm cognition**—our capacity to perceive, predict, segment, comprehend, and entrain to socially meaningful auditory rhythms, such as music and spoken language. Specifically, my work examines how brain rhythms, and neural plasticity involving brain rhythms, enable complex perception, action, and cognition to rhythmic sounds, most notably in the domain of music, and how these processes can be facilitated by prior experience, such as musical training and exposure to certain rhythmic structures, over the lifespan. I am also interested in how impairments in rhythm processing and brain rhythms manifest in cognitive and developmental disorders (e.g., developmental dyslexia, Alzheimer’s disease) and whether non-invasive interventions which modulate brain rhythms can remediate cognitive impairments in clinical populations. 
 
-To examine the neurobiological and developmental mechanisms underlying rhythm cognition, my research uses a combination of computational and dynamical systems modeling, electrophysiological methods, and behavioral measures to investigate how our rhythmic abilities, and the neural dynamics that support them, change across the lifespan.
+To examine the neurobiological, developmental, and computational principles underlying rhythm cognition, my research uses a combination of computational and dynamical systems modeling, electrophysiological methods, and behavioral measures to investigate how our rhythmic abilities, and the neural dynamics that support them, change across the lifespan.
 
 I'm also have pet interests in dynamical systems approaches to perception-action, the limits of reductionism in developmental theory (e.g., developmental systems theory), and the ecological psychology of J.J. Gibson.
 
@@ -59,7 +59,7 @@ ___
 <div class="left_figure"><figure>
 	<img src="/img/GammaMBIs.png" alt="Gamma Music-Based Interventions (Gamma-MBIs)" style="float: left" width="400" hspace="25" vspace="25" />
 	<figcaption>
-		<font size="2"><i>Gamma Music-Based Interventions (Tichko, Kim, Large, and Loui, in press).</i></font>
+		<font size="2"><i>Gamma Music-Based Interventions (Tichko, Kim, Large, & Loui, 2020).</i></font>
 	</figcaption>
 </figure></div>
 
@@ -69,6 +69,11 @@ ___
 
 
 ## Scientific Outreach 
+
+### Brain, Cognition, and Language Digest
+
+As a graduate student, I contributed to a [research digest](https://ibacs.uconn.edu/brain-cognition-and-language-digest/), published by the Connecticut Institute for the Brain and Cognitive Sciences, on atypical language development. The digest was released to the public and was disrupted to local government officials and policy makers to help inform policies on developmental disorders, such as Autism Spectrum Disorder (ASD).
+
 
 ### Neural Symphony
 
