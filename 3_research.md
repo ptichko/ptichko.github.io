@@ -18,7 +18,7 @@ Broadly, I am interested in the neurobiological and developmental foundations of
 
 To examine the neurobiological, developmental, and computational principles underlying rhythm cognition, my research uses a combination of computational and dynamical systems modeling, electrophysiological methods, and behavioral measures to investigate how our rhythmic abilities, and the neural dynamics that support them, change across the lifespan.
 
-I'm also have pet interests in dynamical systems approaches to perception-action, the limits of reductionism in developmental theory (e.g., developmental systems theory), and the ecological psychology of J.J. Gibson.
+I also have pet interests in dynamical systems approaches to perception-action, the limits of reductionism in developmental theory (e.g., developmental systems theory), and the ecological psychology of J.J. Gibson.
 
 Click for my [google scholar](https://scholar.google.com/citations?user=HYUPaSIAAAAJ&hl=en&authuser=1) and [coding projects](https://github.com/ptichko). 
 

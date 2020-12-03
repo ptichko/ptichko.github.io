@@ -8,9 +8,9 @@ header-img: "img/Banner.jpg"
 ## Courses and Statistical Consulting
 University of Connecticut, Psychology Department
 * Teaching Assistant, General Psychology I, (3 Labs) Fall 2015, (4 labs) Spring 2016
-* Teaching Assistant, Principles of Research in Psychology, (1 Lab) Fall 2017, Spring 2018, 2019
+* Teaching Assistant, Principles of Research in Psychology, (1 Lab) Fall 2017, (1 Lab) Spring 2018, (1 Lab) Spring 2019
 * Statistics Consultant, Fall 2017
-* Instructor of Record, Developmental Psychology (Undergraduate Course), Fall 2018
+* Instructor of Record, Developmental Psychology (1 Undergraduate Course), Fall 2018
 
 ## Teaching Awards
 As a graduate student, I received the **Provost’s Teaching Excellence Letter** in 2019, an award given to instructors of record who display exceptional teaching abilities. 
