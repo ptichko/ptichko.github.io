@@ -10,7 +10,7 @@ header-img: "img/Banner.jpg"
 <center><figure>
         <img src="/img/PhillipsSilver_Network.png" alt="Rhythm Model" width="500" hspace="25" vspace="25" />
         <figcaption>
-                <font size="2">Dynamical systems model of infant rhythm perception (Tichko et al., under review).</font>
+                <font size="2">Dynamical systems model of infant rhythm perception (Tichko et al., in press).</font>
         </figcaption>
 </figure></center>
 
