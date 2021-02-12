@@ -13,7 +13,7 @@ source("dprime_pre.R") # d-prime pre-processing
 source("dprime_post.R") # d-prime post-processing
 ```
 
-As an example, let's create a dataframe reflecting a hypothetical cognitive task. Imagine we ran an experiment where participants were presented with two images, called "stim1" and "stim1," and they had to determine if the two images were the same or different after a delay period (i.e., a delayed match-to-sample task). The dependent variable, stored in the column "correct," is whether the particpants correctly determined whether the two images were the same or different for a given trial: 0 means an incorrect response, while 1 denotes a correct response.
+As an example, let's create a dataframe reflecting a hypothetical cognitive task. Imagine we ran an experiment where participants were presented with two images, called "stim1" and "stim2," and they had to determine if the two images were the same or different after a delay period (i.e., a delayed match-to-sample task). The dependent variable, stored in the column "correct," is whether the particpants correctly determined whether the two images were the same or different for a given trial: 0 means an incorrect response, while 1 denotes a correct response.
 
 ```
 # Create a mock dataframe
