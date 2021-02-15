@@ -12,7 +12,7 @@ ___
 
 **Tichko P.**, Bird, K.A. & Kohn, G. (Submitted, Commentary on [Mehr et al., 2020](https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/origins-of-music-in-credible-signaling/82D36C04DA04D96AD9A77EEAF4BBFB34)). Beyond “Consistent With” Adaptation: Is There a Robust Test For Music Adaptation? Behavioral and Brain Sciences.
 
-**Tichko P.**, Kim, J.C., & Large, E. (In Press). [Bouncing the Network: A Dynamical Systems Model of Auditory-Vestibular Interactions Underlying Infants' Perception of Musical Rhythm].(https://onlinelibrary.wiley.com/doi/10.1111/desc.13103) Developmental Science. 
+**Tichko P.**, Kim, J.C., & Large, E. (In Press). [Bouncing the Network: A Dynamical Systems Model of Auditory-Vestibular Interactions Underlying Infants' Perception of Musical Rhythm.](https://onlinelibrary.wiley.com/doi/10.1111/desc.13103) Developmental Science. 
 
 **Tichko P.**, Kim, J.C., Large, E., & Loui, P. (2020). [Integrating music-based interventions with Gamma-frequency stimulation: Implications for healthy aging.](https://onlinelibrary.wiley.com/doi/abs/10.1111/ejn.15059?af=R) European Journal of Neuroscience.
 
