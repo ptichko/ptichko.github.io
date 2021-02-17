@@ -5,7 +5,7 @@ title:  "Pipeline To Calculate D-Prime in R"
 
 # Pipeline To Calculate D-Prime in R
 
-One efficient way to calculate d-prime in R is to use the [dprime() function](https://www.rdocumentation.org/packages/psycho/versions/0.6.1/topics/dprime) from the psycho library. Prior to using the dprime() function, however, the user must calculate the total numbers of hits, misses, false alarms, and correct rejections for each participant in their experiment. This can be quite cumbersome. For a recent project, I automated this process by writing two R functions that label whether a trial in a experiment is a hit, miss, false alarm, or correct rejection, and tally up the total number of hits, misses, false alarms, and correction rejections by particpant.(Originally, I had intended to write my own custom R functions to directly calculate d-prime using tidyverse functions, but with feedback from Karim Rivera, who found an error with my approach, I decided to modify my functions to just compute d-prime labels and subscores and leave the direct calculation of d-prime statistics to the psycho library, which is much more flexible method than what I had written.)
+One efficient way to calculate d-prime in R is to use the [dprime() function](https://www.rdocumentation.org/packages/psycho/versions/0.6.1/topics/dprime) from the psycho library. Prior to using the dprime() function, however, the user must calculate the total numbers of hits, misses, false alarms, and correct rejections for each participant in their experiment. This can be quite cumbersome. For a recent project, I automated this process by writing two R functions that label whether a trial in a experiment is a hit, miss, false alarm, or correct rejection, and tally up the total number of hits, misses, false alarms, and correction rejections by particpant. (Originally, I had intended to write my own custom R functions to directly calculate d-prime using tidyverse functions, but with feedback from Karim Rivera, who found an error with my original approach, I decided to modify my functions to just compute d-prime labels and subscores and leave the direct calculation of d-prime statistics to the psycho library, which is much more flexible method than what I had written.)
 Once the total number of hits, misses, false alarms, and correct rejections are calculated for each participant, the dprime() function from the psycho library can be used to calculate several d-prime statistics related to sensitivity and bias.
 
 You can download the R functions here <a href="/r/dprime_lab.R" target="_blank"><i class="fa fa-file-text fa-md"></i></a> and here <a href="/r/dprime_cat.R" target="_blank"><i class="fa fa-file-text fa-md"></i></a>, then load them into your R session using the source() function:
@@ -16,7 +16,7 @@ source("dprime_lab.R") # label individual trials (i.e., rows in a data frame) as
 source("dprime_cat.R") # total number of hits, misses, false alarms, and correct rejections for each participant
 ```
 
-As an example, let's create a dataframe reflecting a hypothetical cognitive task. Imagine we ran an experiment where participants were presented with two images, called "stim1" and "stim2," and they had to determine if the two images were the same or different after a delay period (i.e., a delayed match-to-sample task). The dependent variable, stored in the column "correct," is whether the particpants correctly determined whether the two images were the same or different for a given trial: 0 means an incorrect response, while 1 denotes a correct response.
+As an example, let's create a data frame reflecting a hypothetical cognitive task. Imagine we ran an experiment where participants were presented with two images, called "stim1" and "stim2," and they had to determine if the two images were the same or different after a delay period (i.e., a delayed match-to-sample task). The dependent variable, stored in the column "correct," is whether the particpants correctly determined whether the two images were the same or different for a given trial: 0 means an incorrect response, while 1 denotes a correct response.
 
 ```
 # Create a data frame
@@ -45,7 +45,7 @@ head(df)
 6 Participant 1 Orange Orange       0
 ```
 
-First, we can use dprime_lab() to label each trial as a hit, miss, false alarm, or correct rejection. The function returns a data frame with new columns that summarizes whether a particular trial was a correct rejection, hit, miss, or false alarm.  
+First, we can use dprime_lab() to label each trial as a hit, miss, false alarm, or correct rejection. The function returns a data frame with new columns that summarizes whether a particular trial was a hit, miss, false alarm, or correct rejection.  
 Start by calling dprime_lab() and passing through the name of the column with the first image, "stim1", the name of the column with the second image, "stim2", then the name of the column with the dependent variable, "correct", and finally the name of the data frame.
 
 ```
@@ -66,7 +66,7 @@ head(df.dprime)
 Next, run dprime_cat() to calculate the total number of hits, misses, false alarms, and correct rejections for each participant. Call dprime_cat(), pass through the dataframe with d-prime labels, and then pass through "participant" column (without quotes).
 **Note:** Because this function uses dplyr, you must pass through the names of your variables **without** quotation marks:
 
-The output is a tibble that summarizes the the number of correct rejections, hits, misses, and false alarms for each participant.
+The output is a tibble that summarizes the the number of correct rejections, hits, misses, and false alarms for each participant:
 ```
 # Calculate total number of hits, misses, false alarms, and correct rejections for each participant
 df.cat <- dprime_cat(df.dprime, participant)
@@ -81,7 +81,7 @@ head(df.cat)
 4 Participant 4     0      0          12          12         0       24     24
 ```
 
-Finally, you can pass the columns from output of dprime_cat() function to the dprime() function from the psycho library to compute a number of d-prime statistics
+Finally, you can pass individual columns from the tibble outputted by the dprime_cat() function to the dprime() function from the psycho library to compute d-prime statistics:
 
 ```
 # Finally, use psycho::d-prime to calculate d-prime stats
