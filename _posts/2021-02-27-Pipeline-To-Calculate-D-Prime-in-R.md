@@ -90,7 +90,6 @@ dprime.stats<-psycho::dprime(df.cat$Hits,df.cat$FalseAlarms, df.cat$Misses, df.c
 # Add d-prime values into df
 df.cat$dprime <- dprime.stats$dprime
 
-
 head(df.cat) # note, in this example all d-prime values are 0
 # A tibble: 4 x 9
   participant    Hits Misses FalseAlarms CorrectRejs TotalTarg TotalDis NumRes dprime
