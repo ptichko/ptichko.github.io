@@ -45,8 +45,7 @@ head(df)
 6 Participant 1 Orange Orange       0
 ```
 
-First, we can use dprime_lab() to label each trial as a hit, miss, false alarm, or correct rejection. The function returns a data frame with new columns that summarizes whether a particular trial was a hit, miss, false alarm, or correct rejection.  
-Start by calling dprime_lab() and passing through the name of the column with the first image, "stim1", the name of the column with the second image, "stim2", then the name of the column with the dependent variable, "correct", and finally the name of the data frame.
+First, we can use dprime_lab() to label each trial as a hit, miss, false alarm, or correct rejection. The function returns a data frame with new columns that summarizes whether a particular trial was a hit, miss, false alarm, or correct rejection. Start by calling dprime_lab() and passing through the name of the column with the first image, "stim1", the name of the column with the second image, "stim2", then the name of the column with the dependent variable, "correct", and finally the name of the data frame.
 
 ```
 # Calculate correct rejections, hits, misses, and false alarms
