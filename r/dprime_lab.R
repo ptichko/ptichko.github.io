@@ -31,6 +31,13 @@
 dprime_lab <- function(stim1_col, stim2_col, correct_col, data){
 
   # Parker Tichko, 2020
+  
+  # Create columns
+  data$Hit <- NA
+  data$Miss <- NA
+  data$FalseAlarm <- NA
+  data$CorrectRej <- NA
+  
 
   # Compute sub-categories for d-prime stats
   for(i in 1:length(data[[stim1_col]])){
