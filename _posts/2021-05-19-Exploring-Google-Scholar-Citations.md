@@ -101,7 +101,7 @@ df.1 <- df %>%
 
 
 fm_lm <- lm(cites.log ~ career_year, data = df.1) # linear regression to get starting coefficients
-st <- list(a = exp(coef(fm_lm)[1]), b = coef(fm_lm)[2]) # intercept and slop coefficients
+st <- list(a = exp(coef(fm_lm)[1]), b = coef(fm_lm)[2]) # intercept and slope coefficients
 m <- nls(cites ~ I(a*exp(b*career_year)), data=df.1, start=st, trace=T) # non-linear regression with least squares
 
 dy_est<-predict(m,df.1$career_year) # save model predictions
