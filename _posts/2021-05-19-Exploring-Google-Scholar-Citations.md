@@ -46,7 +46,7 @@ Plotting the total number of citations since 1982 (here normalizing the year 198
 From plotting the data, the total citations from Hawking and Feinman both appear to follow an exponential trend over the course of their citation history. We can try fitting an exponential regression model for each author and estimate parameters for the models. We use the nls() in R for fitting non-linear models, where we can specify our formula for an expontential model and supply starting parameters for the optimization procedure that are derived from a simple linear regression model. Finally, we plot the prediction of the model against the citation data from Google Scholar.
 
 ```
-# Fit expontential model to Feynman
+# Fit exponential model to Feynman
 
 df.1 <- df %>%
   filter(name == "Richard Feynman") %>%
@@ -93,7 +93,7 @@ The exponential model was a signiciant fit to the Feynman data, and the estimate
 Repeating the same process for the Hawking data, we get:
 
 ```
-# Fit expontential model to Hawking
+# Fit exponential model to Hawking
 
 df.1 <- df %>%
   filter(name == "Stephen Hawking") %>%
