@@ -40,13 +40,14 @@ Plotting the total number of citations since 1982 (here we use the career_year v
 
 ## Modelling Stephen Hawking's and Richard Feynman's Citation History
 
-From plotting the data, the total citations from Hawking and Feynman both appear to follow an exponential trend over the course of their citation history. We can try fitting a non-linear regression model for each author, specifically estimating parameters for an exponential model of the form...
+From plotting the data, the total citations from Hawking and Feynman both appear to follow an exponential trend over the course of their citation history. We can try fitting a non-linear regression model for each author, specifically estimating parameters for an exponential model of the form:
 
-<p align="center">
-<img src="https://render.githubusercontent.com/render/math?math=y^{\prime}=\alpha e^{\beta x}>
-</p>
+```
+$$y^{\prime}=\alpha e^{\beta x}
 
-...where y-prime is the predicted number of citations since the career start and alpha and beta are parameters to be estimated.
+```
+
+where y-prime is the predicted number of citations since the career start and alpha and beta are parameters to be estimated.
 
 We use the nls() in R for fitting non-linear models, where we can specify our formula for an exponential model and supply initial parameters for alpha and beta for the optimization procedure. To derive initial parameters, we first fit a simple linear regression model on the citation data using log-transformed citation data. We save the coefficients of this model and use them to create our nls() model with these coefficients as starting parameters. Finally, we plot the prediction of the exponential model against the citation data from Google Scholar to visually examine the fit of the model.
 
