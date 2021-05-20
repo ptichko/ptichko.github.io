@@ -143,6 +143,11 @@ Achieved convergence tolerance: 7.586e-07
 ```
 Similar to the Feynman model, the estimated parameters for the Hawking model were also significant. 
 
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=y^{\prime}= 823e^{0.053x}">
+</p>
+
 $$y^{\prime}= 823e^{0.053x}$$
 
 Visualizing the data against the model prediction, we find that the Hawking model, again, denoted by the pink dashed line, captures the exponential trend quite well.
