@@ -40,7 +40,7 @@ Plotting the total number of citations since 1982 (here normalizing the year 198
 
 ## Estimating a Non-Linear Model for Stephen Hawking's and Richard Feinman's Citation History
 
-From plotting the data, the total citations from Hawking and Feinman both appear to follow an exponential trend over the course of their citation history. We can try fitting an exponential regression model for each author and estimate parameters for the models. We use the nls() in R for fitting non-linear models, where we can specify our formula for an expontential model and supply starting parameters for the optimization procedure that are derived from a simple linear regression model. Finally, we plot the prediction of the model against the citation data from Google Scholar.
+From plotting the data, the total citations from Hawking and Feinman both appear to follow an exponential trend over the course of their citation history. We can try fitting an exponential regression model for each author and estimate parameters for the models. We use the nls() in R for fitting non-linear models, where we can specify our formula for an exponential model and supply starting parameters for the optimization procedure that are derived first from a simple linear regression model that uses log-transformed data. Finally, we plot the prediction of the model against the citation data from Google Scholar.
 
 ```
 # Fit exponential model to Feynman
