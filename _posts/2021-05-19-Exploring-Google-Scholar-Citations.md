@@ -48,7 +48,7 @@ From plotting the data, the total citations from Hawking and Feynman both appear
 
 where y-prime is the predicted number of citations since the career start and alpha and beta are parameters to be estimated.
 
-We use the nls() in R for fitting non-linear models, where we can specify our formula for an exponential model and supply initial parameters for alpha and beta for the optimization procedure. To derive initial parameters, we first fit a simple linear regression model on the citation data using log-transformed citation data. We save the coefficients of this model and use them to create our nls() model with these coefficients as starting parameters. Finally, we plot the prediction of the exponential model against the citation data from Google Scholar to visually examine the fit of the model.
+We use the nls() in R for fitting non-linear models, where we can specify the above formula for an exponential model and supply initial parameters for alpha and beta for the optimization procedure. To derive initial parameters, we, first, fit a simple linear regression model on the citation data using log-transformed citation data. (If the trend is truly exponential, log-transforming the dependent variable should yield a linear relationship between log(y) and x.) We, then, save the coefficients of this model and use as starting parameters in the instantiate our nls() model. Finally, we plot the predicted values of the exponential model against the citation data from Google Scholar to visually examine the fit of the model against the empirical data.
 
 ```
 # Fit exponential model to Feynman
@@ -61,7 +61,7 @@ df.1 <- df %>%
 
 
 fm_lm <- lm(cites.log ~ career_year, data = df.1) # linear regression to get starting coefficients
-st <- list(a = exp(coef(fm_lm)[1]), b = coef(fm_lm)[2]) # intercept and slope coefficients
+st <- list(a = exp(coef(fm_lm)[1]), b = coef(fm_lm)[2]) # intercept (remember to take exp()) and slope coefficients
 m <- nls(cites ~ I(a*exp(b*career_year)), data=df.1, start=st, trace=T) # non-linear regression with least squares
 
 dy_est<-predict(m,df.1$career_year) # save model predictions
@@ -117,7 +117,7 @@ df.1 <- df %>%
 
 
 fm_lm <- lm(cites.log ~ career_year, data = df.1) # linear regression to get starting coefficients
-st <- list(a = exp(coef(fm_lm)[1]), b = coef(fm_lm)[2]) # intercept and slope coefficients
+st <- list(a = exp(coef(fm_lm)[1]), b = coef(fm_lm)[2]) # intercept (remember to take exp()) and slope coefficients
 m <- nls(cites ~ I(a*exp(b*career_year)), data=df.1, start=st, trace=T) # non-linear regression with least squares
 
 dy_est<-predict(m,df.1$career_year) # save model predictions
