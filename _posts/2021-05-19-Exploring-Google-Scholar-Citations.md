@@ -130,7 +130,7 @@ Achieved convergence tolerance: 7.586e-07
 823.96882888   0.05378992 
 
 ```
-Similar to the Feynman model, the exponential model fit to the Hawking data was signicant, and the estimated parameters for the exponential model were also significant. Visualizing the data against the model prediction, we find that the Hawking model (denoted by the pink dashed line) also captures the exponential trend.
+Similar to the Feynman model, the exponential model significantly fit the Hawking data, and the estimated parameters for the exponential model were also significant. Visualizing the data against the model prediction, we find that the Hawking model (denoted by the pink dashed line) also captures the exponential trend.
 
 
 <p align="center">
