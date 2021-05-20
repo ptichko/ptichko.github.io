@@ -90,7 +90,7 @@ coef(m)
 719.37917740   0.05217138
 
 ```
-The parameters of the estimated exponential model were found to be significant, suggesting that an exponential model of the following form captures the exponential trend observed in Feynman's ciation data:
+The parameters of the estimated exponential model were found to be significant, suggesting that an exponential model of the following form captures the trend observed in Feynman's ciation data beginning in 1982:
 
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=y^{\prime}= 719e^{0.052x}">
@@ -146,8 +146,7 @@ Achieved convergence tolerance: 7.586e-07
 823.96882888   0.05378992 
 
 ```
-Similar to the Feynman model, the estimated parameters for the Hawking model were also significant. 
-
+Similar to the Feynman model, the estimated parameters for the Hawking model were also significant, yielding a model with the following form: 
 
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=y^{\prime}= 823e^{0.053x}">
@@ -160,3 +159,4 @@ Visualizing the data against the model prediction, we find that the Hawking mode
 <p align="center">
   <img src="/img/hawkingmodel.png"/>
 </p>
+
