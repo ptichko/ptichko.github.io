@@ -91,7 +91,14 @@ coef(m)
 719.37917740   0.05217138
 
 ```
-The parameters of the estimated exponential model were found to be significant. Visualizing the data against the model prediction, we find that the model, denoted by the pink dashed line, seems to capture most of the the exponential trend, albeit the tails of the trend.
+The parameters of the estimated exponential model were found to be significant, suggesting that an exponential model of the following form captures the exponential trend observed in Feynman's ciation data:
+
+```
+$$y^{\prime}= 719e^{0.052x}$$
+
+```
+
+Visualizing the data against the model prediction, we find that the predicted values from model, denoted by the pink dashed line, seems to capture most of the the exponential trend, albeit the tails of the trend.
 
 <p align="center">
   <img src="/img/feynmanmodel.png"/>
@@ -140,7 +147,15 @@ Achieved convergence tolerance: 7.586e-07
 823.96882888   0.05378992 
 
 ```
-Similar to the Feynman model, the estimated parameters for the Hawking model were also significant. Visualizing the data against the model prediction, we find that the Hawking model, again, denoted by the pink dashed line, captures the exponential trend quite well.
+Similar to the Feynman model, the estimated parameters for the Hawking model were also significant. 
+
+
+```
+$$y^{\prime}= 823e^{0.053x}$$
+
+```
+
+Visualizing the data against the model prediction, we find that the Hawking model, again, denoted by the pink dashed line, captures the exponential trend quite well.
 
 
 <p align="center">
