@@ -5,9 +5,9 @@ title:  "Modeling Google Scholar Citations Mined With the Scholar Library"
 
 # Mining Google Scholar Data With The Scholar Libary
 
-In this post, I show how the [scholar](https://cran.r-project.org/web/packages/scholar/index.html) library can be used to explore historical citation data archived on Google Scholar in R. Using the scholar library, we import citation-related data, beginning for the year 1982, for two of the most important physists of the 20th century -- Stephen Hawking and Richard Feynman -- and examine how their total citations evolved over time. For added fun, we fit a non-linear, exponential regression model to model their respective trends of citations over time.
+In this post, I show how the [scholar](https://cran.r-project.org/web/packages/scholar/index.html) library can be used to explore historical citation data archived on Google Scholar in R. Using the scholar library, we import citation-related data, beginning in the year 1982, for two of the most important physists of the 20th century -- Stephen Hawking and Richard Feynman -- and examine how their total citations evolved over time. For added fun, we fit a non-linear, exponential regression model to model their respective trends of citations over time.
 
-First, we load the scholar library, locate the identifcation numbers for Hawking and Feynman (the identification numbers for authors on Google Scholar can be located in the URL for the author's Google Scholar page) and use the compare_scholar_careers() function to import citation data for Hawking and Feynman beginning in the year 1982.
+First, we load the scholar library, locate the identifcation numbers for Hawking and Feynman (the identification numbers for authors on Google Scholar can be located in the URL for the author's Google Scholar page), and use the compare_scholar_careers() function to import citation data for Hawking and Feynman beginning in the year 1982.
 
 ```
 library(scholar)
@@ -43,7 +43,7 @@ Plotting the total number of citations since 1982 (here normalizing the year 198
 
 # Estimating a Non-Linear Model for Stephen Hawking's and Richard Feinman's Citation History
 
-From plotting the data, the total citations from Hawking and Feinman both appear to follow an expoential trend over their citation history. We can try fitting an exponential regression model and assess model fit. We use the nls() in R for fitting non-linear models, we specify our formula for an expontential model and supply starting parameters for the optimization procedure that are derived from a simple linear regression model.
+From plotting the data, the total citations from Hawking and Feinman both appear to follow an expoential trend over the course of their citation history. We can try fitting an exponential regression model for each author and assess model fit. We use the nls() in R for fitting non-linear models, we specify our formula for an expontential model and supply starting parameters for the optimization procedure that are derived from a simple linear regression model.
 
 ```
 
@@ -51,9 +51,7 @@ From plotting the data, the total citations from Hawking and Feinman both appear
 
 df.1 <- df %>%
   filter(name == "Richard Feynman") %>%
-  filter(career_year != max(career_year)) 
-
-plot(df.1$career_year, df.1$cites)
+  filter(career_year != max(career_year)) # remove latest year
 
 
 fm_lm <- lm(cites.log ~ career_year, data = df.1) # linear regression to get starting coefficients
