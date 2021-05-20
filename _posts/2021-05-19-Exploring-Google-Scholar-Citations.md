@@ -146,7 +146,7 @@ Achieved convergence tolerance: 7.586e-07
 823.96882888   0.05378992 
 
 ```
-Similar to the Feynman model, the estimated parameters for the Hawking model were also significant, yielding a model with the following form: 
+Similar to the Feynman model, the estimated parameters for the Hawking model were also significant, yielding an exponential model with the following parameters: 
 
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=y^{\prime}= 823e^{0.053x}">
