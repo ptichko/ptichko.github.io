@@ -45,6 +45,8 @@ From plotting the data, the total citations from Hawking and Feinman both appear
 ```
 # Fit exponential model to Feynman
 
+df <- mutate(df, cites.log = log(cites)) # log transform cites for simple linear regression
+
 df.1 <- df %>%
   filter(name == "Richard Feynman") %>%
   filter(career_year != max(career_year)) # remove latest year
@@ -80,7 +82,7 @@ coef(m)
 719.37917740   0.05217138
 
 ```
-The exponential model was a signiciant fit to the Feynman data, and the estimated parameters for the exponential model were also found to be significant. Visualizing the data against the model prediction, we find that the model (denotd by the pink dashed line) adequately captures the exponential trend.
+The exponential model was a signicant fit to the Feynman data, and the estimated parameters for the exponential model were also found to be significant. Visualizing the data against the model prediction, we find that the model (denotd by the pink dashed line) adequately captures the exponential trend.
 
 <p align="center">
   <img src="/img/feynmanmodel.png"/>
@@ -91,6 +93,8 @@ Repeating the same process for the Hawking data, we get:
 
 ```
 # Fit exponential model to Hawking
+
+df <- mutate(df, cites.log = log(cites)) # log transform cites for simple linear regression
 
 df.1 <- df %>%
   filter(name == "Stephen Hawking") %>%
