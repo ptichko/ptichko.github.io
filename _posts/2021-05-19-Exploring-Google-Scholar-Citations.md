@@ -30,9 +30,6 @@ head(df)
 5 B7vSqZsAAAAJ 1986   726           4 Richard Feynman
 6 B7vSqZsAAAAJ 1987   718           5 Richard Feynman
 
-
-
-
 ```
 Plotting the total number of citations since 1982 (here normalizing the year 1982 as the start of the career), we observe a positive trend in citations that appears to rise in an exponential manner. Moreover, at least from 1982, Hawking appears to eclipse Feynman in terms of absolute number of total citations.
 
