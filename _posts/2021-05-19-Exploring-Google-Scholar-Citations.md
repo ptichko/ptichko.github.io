@@ -40,7 +40,7 @@ Plotting the total number of citations since 1982 (here we use the career_year v
 
 ## Modelling Stephen Hawking's and Richard Feynman's Citation History
 
-From plotting the data, the total citations from Hawking and Feynman both appear to follow an exponential trend over the course of their citation history. We can try fitting an exponential regression model for each author and estimate parameters for an exponential model. We use the nls() in R for fitting non-linear models, where we can specify our formula for an exponential model and supply iniitial parameters for the optimization procedure. To that are derive initial parameters, we first fit a simple linear regression model on the citation data that uses log-transformed data. We save the coefficients of this model and use them to create our nls() model. Finally, we plot the prediction of the exponential model against the citation data from Google Scholar.
+From plotting the data, the total citations from Hawking and Feynman both appear to follow an exponential trend over the course of their citation history. We can try fitting an exponential regression model for each author and estimate parameters for an exponential model. We use the nls() in R for fitting non-linear models, where we can specify our formula for an exponential model and supply iniitial parameters for the optimization procedure. To derive initial parameters, we first fit a simple linear regression model on the citation data using log-transformed citation data. We save the coefficients of this model and use them to create our nls() model with these coefficients as starting parameters. Finally, we plot the prediction of the exponential model against the citation data from Google Scholar to visually examine the fit of the model.
 
 ```
 # Fit exponential model to Feynman
@@ -82,14 +82,14 @@ coef(m)
 719.37917740   0.05217138
 
 ```
-The exponential model was a signicant fit to the Feynman data, and the estimated parameters for the exponential model were also found to be significant. Visualizing the data against the model prediction, we find that the model (denotd by the pink dashed line) adequately captures the exponential trend.
+The parameters of the estimated exponential model were found to be significant. Visualizing the data against the model prediction, we find that the model, denotd by the pink dashed line, seems to capture most of the the exponential trend, albeit the tails of the trend.
 
 <p align="center">
   <img src="/img/feynmanmodel.png"/>
 </p>
 
 
-Repeating the same process for the Hawking data, we get:
+Repeating the same procedure to model the Hawking data, we get:
 
 ```
 # Fit exponential model to Hawking
@@ -131,7 +131,7 @@ Achieved convergence tolerance: 7.586e-07
 823.96882888   0.05378992 
 
 ```
-Similar to the Feynman model, the exponential model significantly fit the Hawking data, and the estimated parameters for the exponential model were also significant. Visualizing the data against the model prediction, we find that the Hawking model (denoted by the pink dashed line) also captures the exponential trend.
+Similar to the Feynman model, the estimated parameters for the Hawking model were also significant. Visualizing the data against the model prediction, we find that the Hawking model, again, denoted by the pink dashed line, captures the exponential trend quite well.
 
 
 <p align="center">
