@@ -43,7 +43,7 @@ Plotting the total number of citations since 1982 (here we use the career_year v
 From plotting the data, the total citations from Hawking and Feynman both appear to follow an exponential trend over the course of their citation history. We can try fitting a non-linear regression model for each author, specifically estimating parameters for an exponential model of the form:
 
 ```
-$$y^{\prime}=\alpha e^{\beta x}
+$$y^{\prime}=\alpha e^{\beta x}$$
 
 ```
 
