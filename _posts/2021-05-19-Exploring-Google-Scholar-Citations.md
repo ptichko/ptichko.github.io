@@ -53,21 +53,20 @@ We use the nls() in R for fitting non-linear models via the least-squares method
 ```
 # Fit exponential model to Feynman
 
-df <- mutate(df, cites.log = log(cites)) # log transform cites for simple linear regression
-
-df.1 <- df %>%
+df.feynman <- df %>%
+  mutate(cites.log = log(cites)) %>% # log transform cites for simple linear regression
   filter(name == "Richard Feynman") %>%
   filter(career_year != max(career_year)) # remove latest year
 
 
-fm_lm <- lm(cites.log ~ career_year, data = df.1) # linear regression to get starting coefficients
-st <- list(a = exp(coef(fm_lm)[1]), b = coef(fm_lm)[2]) # intercept (remember to take exp()) and slope coefficients
-m <- nls(cites ~ I(a*exp(b*career_year)), data=df.1, start=st, trace=T) # non-linear regression with least squares
+m.lm <- lm(cites.log ~ career_year, data = df.feynman) # linear regression to get starting coefficients
+st <- list(a = exp(coef(m.lm )[1]), b = coef(m.lm )[2]) # intercept (remember to take exp()) and slope coefficients
+m.exp <- nls(cites ~ I(a*exp(b*career_year)), data=df.feynman, start=st, trace=T) # non-linear regression with least squares
 
-dy_est<-predict(m,df.1$career_year) # save model predictions
+m.exp.fitted <-fitted(m.exp) # save fitted values
 
 # Summary
-summary(m)
+summary(m.exp)
 
 Formula: cites ~ I(a * exp(b * career_year))
 
@@ -85,7 +84,7 @@ Achieved convergence tolerance: 7.981e-06
 
 
 # coefficients
-coef(m)
+coef(m.exp)
            a            b 
 719.37917740   0.05217138
 
@@ -109,21 +108,21 @@ Repeating the same procedure to model the Hawking data, we get:
 ```
 # Fit exponential model to Hawking
 
-df <- mutate(df, cites.log = log(cites)) # log transform cites for simple linear regression
 
-df.1 <- df %>%
+df.hawking <- df %>%
+  mutate(cites.log = log(cites)) %>% # log transform cites for simple linear regression
   filter(name == "Stephen Hawking") %>%
   filter(career_year != max(career_year)) # remove latest year
 
 
-fm_lm <- lm(cites.log ~ career_year, data = df.1) # linear regression to get starting coefficients
-st <- list(a = exp(coef(fm_lm)[1]), b = coef(fm_lm)[2]) # intercept (remember to take exp()) and slope coefficients
-m <- nls(cites ~ I(a*exp(b*career_year)), data=df.1, start=st, trace=T) # non-linear regression with least squares
+m.lm <- lm(cites.log ~ career_year, data = df.hawking) # linear regression to get starting coefficients
+st <- list(a = exp(coef(m.lm)[1]), b = coef(m.lm)[2]) # intercept (remember to take exp()) and slope coefficients
+m.exp <- nls(cites ~ I(a*exp(b*career_year)), data=df.hawking, start=st, trace=T) # non-linear regression with least squares
 
-dy_est<-predict(m,df.1$career_year) # save model predictions
+m.exp.fitted <-fitted(m.exp) # save fitted values
 
 # Summary
-summary(m)
+summary(m.exp)
 
 
 Formula: cites ~ I(a * exp(b * career_year))
