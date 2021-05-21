@@ -46,7 +46,7 @@ From plotting the data, the total citations from Hawking and Feynman both appear
 <img src="https://render.githubusercontent.com/render/math?math=y^{\prime}=\alpha e^{\beta x}">
 </p>
 
-where y-prime is the predicted number of citations since the career start, x is the number of years since career start (so, x = 0 would reflect the year 1982 in this example), and alpha and beta are parameters to be estimated.
+where y-prime is the predicted number of citations since the career start, x is the number of years since career start (x = 0 would reflect the year 1982 in this example), and alpha and beta are parameters to be estimated.
 
 We use the nls() in R for fitting non-linear models via the least-squares method, where we can specify the above formula for an exponential model and supply initial parameters for alpha and beta for the optimization procedure. To derive initial parameters, we, first, fit a simple linear regression model on the citation data using log-transformed citation data. (If the trend is truly exponential, log-transforming the dependent variable should yield a linear relationship between log(y) and x.) We, then, save the coefficients of this model and use them as starting parameters in the initial instantiation of our nls() model. Finally, we plot the predicted values of the exponential model against the citation data from Google Scholar to visually examine the fit of the model against the empirical data.
 
