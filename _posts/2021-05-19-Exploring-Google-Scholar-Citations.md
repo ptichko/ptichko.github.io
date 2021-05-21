@@ -89,7 +89,7 @@ coef(m.exp)
 719.37917740   0.05217138
 
 ```
-The parameters of the estimated exponential model were found to be significant, suggesting that an exponential model of the following form captures the trend observed in Feynman's ciation data beginning in 1982:
+The parameters of the estimated exponential model were found to be significant, suggesting that an exponential model of the following form captures the trend observed in Feynman's citation data beginning in 1982:
 
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=y^{\prime}= 719e^{0.052x}">
