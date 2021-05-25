@@ -3,7 +3,7 @@ layout: post
 title:  "Fitting An Exponential Regression To Google Citation Data"
 ---
 
-# Exploring Google Scholar Data With The Scholar Libary
+# Fitting An Exponential Regression To Google Citation Data
 
 In this post, I show how the [scholar](https://cran.r-project.org/web/packages/scholar/index.html) library can be used to explore historical citation data archived on Google Scholar in R. Using the scholar library, we import citation-related data, beginning in the year 1982, for two of the most important physicists of the 20th century -- Stephen Hawking and Richard Feynman -- and examine how their total citations evolved over time. For added fun, we fit a non-linear, exponential regression model to model their respective trends of citations over time.
 
