@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Exploring Google Scholar Citations With the Scholar Library"
+title:  "Fitting An Exponential Regression To Google Citation Data"
 ---
 
 # Exploring Google Scholar Data With The Scholar Libary
