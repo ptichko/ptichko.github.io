@@ -10,7 +10,7 @@ ___
 
 ### Publications
 
-**Tichko P.**, Kim, J.C., & Large, E. (2022). [ A Dynamical, Radically Embodied, and Ecological Theory of Rhythm Development](https://www.frontiersin.org/articles/10.3389/fpsyg.2022.653696/full) Frontiers in Comparative Psychology.
+**Tichko P.**, Kim, J.C., & Large, E. (2022). [ A Dynamical, Radically Embodied, and Ecological Theory of Rhythm Development](https://www.frontiersin.org/articles/10.3389/fpsyg.2022.653696/full) Frontiers in Psychology (Comparative Psychology).
 
 **Tichko P.**, Bird, K.A. & Kohn, G. (2021, Commentary on [Mehr et al., 2020](https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/origins-of-music-in-credible-signaling/82D36C04DA04D96AD9A77EEAF4BBFB34)). [Beyond “Consistent With” Adaptation: Is There a Robust Test For Music Adaptation?](https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/beyond-consistent-with-adaptation-is-there-a-robust-test-for-music-adaptation/744A88E0A16328BA302FD0D2349C140E) Behavioral and Brain Sciences.
 
