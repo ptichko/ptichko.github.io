@@ -62,11 +62,11 @@ Next, we can investigate the effects of the learning rate, the epsilon parameter
 <p align="center">
   <img src="/img/Righetti_Fig2.png"/>
    <figcaption>
-                <font size="2">Figure 2 from Righetti et al., (2006). The effect of different learning rates (epsilon) on frequency adaptation. </font>
+                <font size="2"> Replicating figure 2 from Righetti et al., (2006). The effect of different learning rates (epsilon) on frequency adaptation. </font>
 </figcaption>
 </p>
 
-Finally, I explored whether an adaptive-frequency Hopf oscillator can learn the frequency content of a complex input signal. First, we create a complex signal containing multiple frequencies, in this example, a complex waveform containing a fundamental frequency of 3 Hz (F0) and two harmonics at 6 Hz (F1) and 9 Hz (F2). We simulate the model for the initial conditions, omego_0 = 1, 4, 5, 10 Hz. Plotting omega over time for each initial condition, we see that the 1-Hz oscillator learns the 3 Hz component of the input signal. This is also the result for the 4 Hz oscillator. (Interestingly though, the 4-Hz oscillator starts to increase in frequency during the beginning of the simulation until it tunes its natural frequency to  ~ 5 Hz, then it slows down, heading towards the 3 Hz component of the input signal). The 5-Hz oscillator learns the 6-Hz component, and the 10-Hz oscillator learns the 9-Hz component. 
+Finally, I explored whether an adaptive-frequency Hopf oscillator can learn the frequency content of a complex input signal. First, we create a complex signal containing multiple frequencies; in this example, a complex waveform containing a fundamental frequency of 3 Hz (F0) and two harmonics at 6 Hz (F1) and 9 Hz (F2). We simulate the model for the initial conditions, omego_0 = 1, 4, 5, 10 Hz. Plotting omega over time for each initial condition, we see that the 1-Hz oscillator learns the 3 Hz component of the input signal. This is also the result for the 4 Hz oscillator. (Interestingly though, the 4-Hz oscillator starts to increase in frequency during the beginning of the simulation until it tunes its natural frequency to  ~ 5 Hz, then it slows down, heading towards the 3 Hz component of the input signal). The 5-Hz oscillator learns the 6-Hz component, and the 10-Hz oscillator learns the 9-Hz component. 
 
 <p align="center">
   <img src="/img/Hopf_MultiFreq.png"/>
