@@ -14,7 +14,7 @@ Recently, I began to implement Righetti, Buchli, & Ijspeert (2006)’s Hebbian l
 
 ## Simulations Of An Adaptive-Frequency Hopf Oscillator
 
-The Hopf oscillator is a non-linear oscillator that spontaneously oscillates, i.e., spontaneously enters a limit cycle, producing a non-zero amplitude. The equations of motion for the Hopf oscillator are given by the following systems of ODEs, here represented in Cartesian coordinates:
+The Hopf oscillator is a non-linear oscillator that spontaneously oscillates, i.e., spontaneously enters a limit cycle, producing a non-zero amplitude. The equations of motion for the Hopf oscillator are given by the following system of ODEs, here represented in Cartesian coordinates:
 
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=\begin{array}{l}
