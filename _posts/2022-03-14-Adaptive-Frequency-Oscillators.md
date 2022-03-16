@@ -23,13 +23,13 @@ The Hopf oscillator is a non-linear oscillator that spontaneously oscillates, i.
 \end{array}">
 </p>
 
-Where, r = sqrt(x^2 + y^2), and m > 0. F = the input signal, and e is the coupling coefficient to the input signal. Righetti et al., (2006) introduces a Hebbian learning rule for the Hopf oscillator that takes the following form:
+Where, r = sqrt(x^2 + y^2), and mu > 0. F = the input signal, and epsilon is a coupling coefficient to the input signal. Righetti et al., (2006) introduces a Hebbian learning rule for the Hopf oscillator that takes the following form:
 
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=\dot{\omega}=-\epsilon F \frac{y}{\sqrt{x^{2}+y^{2}}}">
 </p>
 
-The learning rule governs the dynamics of omega, which is the control paramter for oscillator natural frequency in the Hopf oscillator. F, again, is the input signal, and e controls the learning rate of the system. Below, I run several numerical simulations of a Hopf oscillator with adaptive-frequency dynamics to qualitatively assess the learning dynamics of the Hebbian learning rule. We start by simulating the frequency adaption of the Hopf oscillator for several initial conditions of the oscillator’s natural frequency (omega_0) to observe whether the oscillator correctly “learns” the frequency of the external input signal. In this simulation, a Hopf oscillator is being driven by periodic forcing at 30 Hz. Examining the dynamics of oscillator frequency for several initial conditions (omega_0 = 18, 26, 36, 40 Hz), we find that, for all initial conditions, the frequency of the oscillator converges to the frequency of the external input signal—30 Hz. (Moreover, for all initial conditions, there is a momentary increase in the variability of oscillator frequency right before the oscillator synchronizes to the external signal at its learned frequency.)
+The learning rule governs the dynamics of omega, which is the control paramter for oscillator natural frequency in the Hopf oscillator. F, again, is the input signal, and epsilon controls the learning rate of the system. Below, I run several numerical simulations of a Hopf oscillator with adaptive-frequency dynamics to qualitatively assess the learning dynamics of the Hebbian learning rule. We start by simulating the frequency adaption of the Hopf oscillator for several initial conditions of the oscillator’s natural frequency (omega_0) to observe whether the oscillator correctly “learns” the frequency of the external input signal. In this simulation, a Hopf oscillator is being driven by periodic forcing at 30 Hz. Examining the dynamics of oscillator frequency for several initial conditions (omega_0 = 18, 26, 36, 40 Hz), we find that, for all initial conditions, the frequency of the oscillator converges to the frequency of the external input signal—30 Hz. (Moreover, for all initial conditions, there is a momentary increase in the variability of oscillator frequency right before the oscillator synchronizes to the external signal at its learned frequency.)
 
 <p align="center">
   <img src="/img/Hopf_MultipleW0s.png"/>
