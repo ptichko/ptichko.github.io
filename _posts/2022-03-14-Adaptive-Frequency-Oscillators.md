@@ -23,7 +23,7 @@ The Hopf oscillator is a non-linear oscillator that spontaneously oscillates, i.
 \end{array}">
 </p>
 
-Where, r = sqrt(x^2 + y^2), and mu > 0. F = the input signal, omega is oscillator frequency, and epsilon is a coupling coefficient to the input signal. Righetti et al., (2006) introduces a Hebbian learning rule for the Hopf oscillator that takes the following form:
+Where, r = sqrt(x^2 + y^2), and mu > 0. F = the input signal, omega is oscillator natural frequency, and epsilon is a coupling coefficient to the input signal. Righetti et al., (2006) introduces a Hebbian learning rule for the Hopf oscillator that takes the following form:
 
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=\dot{\omega}=-\epsilon F \frac{y}{\sqrt{x^{2}+y^{2}}}">
@@ -57,7 +57,7 @@ In the time domain, we can also clearly identify the moment when an oscillator l
 </figcaption>
 </p>
 
-Next, we can investigate the effects of the learning rate, the epsilon parameter, on the dynamics of frequency adaptation. I aimed to replicate Figure 2 from the manuscript, which reports the effect of increasing the learning rate on the dynamics frequency adaption. Similar to our first simulation, the oscillator is being driven by periodic forcing at 30 Hz, but now we vary the epsilon parameter, which controls the learning rate of the system. The initial condition of oscillator natural frequency is set to 40 Hz for several learning rates. Unsurprisingly, a slower learning rate requires more time for the oscillator to learn the frequency of the external signal. However, it is clear that the learning rate controls the overall timescale of frequency adaption.
+Next, we can investigate the effects of the learning rate, the epsilon parameter, on the dynamics of frequency adaptation. I aimed to replicate Figure 2 from the manuscript, which reports the effect of increasing the learning rate on the dynamics frequency adaption. Similar to our first simulation, the oscillator is being driven by periodic forcing at 30 Hz, but now we vary the epsilon parameter, which controls the learning rate of the system. The initial condition of oscillator natural frequency is set to 40 Hz for several learning rates. Unsurprisingly, a slower learning rate requires more time for the oscillator to learn the frequency of the external signal (epsilon = 0.4 converges < 500 time, while epsilon = 1 converges > 2000 time). However, it is clear that the learning rate controls the overall timescale of frequency adaption.
 
 <p align="center">
   <img src="/img/Righetti_Fig2.png"/>
