@@ -23,7 +23,7 @@ The Hopf oscillator is a non-linear oscillator that spontaneously oscillates, i.
 \end{array}">
 </p>
 
-Where, r = sqrt(x^2 + y^2), mu > 0, F = the input signal, omega is oscillator natural frequency, and epsilon is a coupling coefficient to the input signal. Righetti et al., (2006) introduces a Hebbian learning rule for the Hopf oscillator that takes the following form:
+Where, r = sqrt(x^2 + y^2), mu > 0, F = the input signal, omega is oscillator natural frequency, and epsilon is a coupling coefficient to the input signal (and the learning rate; see below). Righetti et al., (2006) introduces a Hebbian learning rule for the Hopf oscillator that takes the following form:
 
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=\dot{\omega}=-\epsilon F \frac{y}{\sqrt{x^{2}+y^{2}}}">
