@@ -81,7 +81,7 @@ In the time domain, we can clearly see how the oscillators align with the events
 <p align="center">
   <img src="/img/Hopf_MultiFreqTimeDomain.png"/>
      <figcaption>
-                <font size="2"> Time series of adaptive-frequency dynamics of Hopf oscillator to a complex input signal. Different Hopf oscillators phase-lock to different events in the complex waveform.
+                <font size="2"> Time series of adaptive-frequency dynamics of Hopf oscillator (y component) to a complex input signal. Different Hopf oscillators phase-lock to different events in the complex waveform.
 				Here, x = 0, y = 1, e = 1, and m = 1. </font>
 </figcaption>
 </p>
