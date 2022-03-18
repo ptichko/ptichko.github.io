@@ -39,7 +39,7 @@ The learning rule governs the dynamics of omega, which is the control parameter 
 </figcaption>
 </p>
 
-In the time domain, we can also clearly identify the moment when an oscillator learns the frequency of the input signal and enters a phase-locked relationship with the input signal. Let’s run a similar simulation with a slower input signal of 3 Hz, as we can more readily observe the dynamics of frequency adaptation in the time. With an initial condition of omega_0 = 10 Hz, we observe that an initial 10-Hz Hopf oscillator successfully “learns” the frequency of the 3-Hz input signal, as evinced by the dynamics of the oscillator’s natural frequency (i.e., omega). This learning is also evident in the time domain: as the Hopf oscillator nears the moment of synchronization (time 130 – 140), the phase of the oscillator fluctuates wildly before settling in lock-step with the driving signal.
+In the time domain, we can also clearly identify the moment when an oscillator learns the frequency of the input signal and enters a phase-locked relationship with the input signal. Let’s run a similar simulation with a slower input signal of 3 Hz, as we can more readily observe the dynamics of frequency adaptation in the time. With an initial condition of omega_0 = 10 Hz, we observe that an initial 10-Hz Hopf oscillator successfully “learns” the frequency of the 3-Hz input signal, as evinced by the dynamics of the oscillator’s natural frequency (i.e., omega). This learning is also evident in the time domain: as the Hopf oscillator nears the moment of synchronization (time 120 – 140), the phase of the oscillator fluctuates wildly before settling in lock-step with the driving signal.
 
 
 <p align="center">
