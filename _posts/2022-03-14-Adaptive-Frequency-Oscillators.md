@@ -5,7 +5,7 @@ title:  " Simulating Adaptive-Frequency Oscillators in MATLAB"
 
 # Dynamical Systems Models of Adaptive-Frequency Oscillators
 
-![](img/https://github.com/ptichko/ptichko.github.io/blob/master/img/Hopf_PhaseP.gif?raw=true)
+<img src="https://github.com/ptichko/ptichko.github.io/blob/master/img/Hopf_PhaseP.gif">
 
 Non-linear oscillators have become widely adopted in cognitive science as models of *synchronization* and *entrainment*—a dynamic process in which a system’s activity aligns in time with an external, time-varying input signal. Indeed, many systems that are of interest to cognitive scientists, across multiple scales of organization, exhibit a remarkable ability to synchronize their behavior to time-varying signals, such as the synchronized activity of neural ensembles to sensory stimulation, synchronized human action to auditory rhythms (e.g., music), and the macro-scopic synchronized activity of large social groups, such as fireflies and drum circles. Models of oscillation are particularly suited to explain these kinds of synchronized phenomena, as they possess all kinds of synchronization dynamics, such as phase-, mode-, and frequency-locking, that emerge naturally from dynamical laws that govern their motion and their coupling to input signals. Such oscillatory dynamics may reflect the physical principles that underlie how neural systems, agents, and social groups coordinate their activity over time.
 
