@@ -18,7 +18,7 @@ The Hopf oscillator is a non-linear oscillator that spontaneously oscillates, i.
 
 
 <p align="center">
-<img src="https://latex.codecogs.com/svg.image?\dot{x}=\left(\mu-r^{2}\right)&space;x-\omega&space;y&plus;\epsilon&space;F&space;\\\dot{y}=\left(\mu-r^{2}\right)&space;y&plus;\omega&space;x">
+<img src="https://latex.codecogs.com/svg.image?\begin{array}{l}\dot{x}=\left(\mu-r^{2}\right)&space;x-\omega&space;y&plus;\epsilon&space;F&space;\\\dot{y}=\left(\mu-r^{2}\right)&space;y&plus;\omega&space;x\end{array}">
 </p>
 
 
