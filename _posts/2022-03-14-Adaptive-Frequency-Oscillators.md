@@ -5,12 +5,6 @@ title:  " Simulating Adaptive-Frequency Oscillators in MATLAB"
 
 # Dynamical Systems Models of Adaptive-Frequency Oscillators
 
-<p align="center">
-<img src="/img/Hopf_PhaseP.gif">
-<figcaption>  <font size="2">Simulation of an adaptive-frequency Hopf oscillator that learns the frequency of a 3-Hz input signal. </font>
-</figcaption>
-</p>
-
 Non-linear oscillators have become widely adopted in cognitive science as models of *synchronization* and *entrainment*—a dynamic process in which a system’s activity aligns in time with an external, time-varying input signal. Indeed, many systems that are of interest to cognitive scientists, across multiple scales of organization, exhibit a remarkable ability to synchronize their behavior to time-varying signals, such as the synchronized activity of neural ensembles to sensory stimulation, synchronized human action to auditory rhythms (e.g., music), and the macro-scopic synchronized activity of large social groups, such as fireflies and drum circles. Models of oscillation are particularly suited to explain these kinds of synchronized phenomena, as they possess all kinds of synchronization dynamics, such as phase-, mode-, and frequency-locking, that emerge naturally from dynamical laws that govern their motion and their coupling to input signals. Such oscillatory dynamics may reflect the physical principles that underlie how neural systems, agents, and social groups coordinate their activity over time.
 
 There are cases, however, in which an oscillator might fail to synchronize to an input signal. One case is when the frequency of an input signal falls outside the entrainment basin of an oscillator, prohibiting the oscillator to enter a synchronized state with the input signal. In a 2006 paper, [Righetti, Buchli, & Ijspeert (2006)](https://doi.org/10.1016/j.physd.2006.02.009) proposed a Hebbian learning rule for several classes of oscillator models that allows an oscillator to learn the frequency of an external input signal, even for input frequencies that would normally fall outside the entrainment basin of a fixed-frequency oscillator. When equipped with the learning rule, an oscillator will adjust its natural frequency to a target frequency component reflected in an external input signal. In the case of sinusoidal forcing, the adaptive-frequency oscillator will tune its natural frequency to the fundamental frequency (F0) of the input. If the input signal is more complex—i.e., it contains multiple constituent frequencies—then the learning rule enables the oscillator to synchronize to one of input signal’s frequency components, depending on the initial natural frequency of the oscillator. Furthermore, if the oscillator itself contains multiple frequency components (e.g., a relaxation oscillator), then the learning rule will tune one of the oscillator’s frequency components to a frequency in the input signal.
@@ -45,23 +39,16 @@ The learning rule governs the dynamics of omega, which is the control parameter 
 </figcaption>
 </p>
 
-In the time domain, we can also clearly identify the moment when an oscillator learns the frequency of the input signal and enters a phase-locked relationship with the input signal. Let’s run a similar simulation with a slower input signal of 3-Hz, as we can more readily observe the dynamics of frequency adaptation in the time. With an initial condition of omega_0 = 10 Hz, we observe that an initial 10-Hz Hopf oscillator successfully “learns” the frequency of the 3-Hz input signal, as evinced by the dynamics of the oscillator’s natural frequency (i.e., omega). This learning is also evident in the time domain: as the Hopf oscillator nears the moment of synchronization (time 130 – 140), the phase of the oscillator fluctuates wildly before settling in lock-step with the driving signal.
+In the time domain, we can also clearly identify the moment when an oscillator learns the frequency of the input signal and enters a phase-locked relationship with the input signal. Let’s run a similar simulation with a slower input signal of 3 Hz, as we can more readily observe the dynamics of frequency adaptation in the time. With an initial condition of omega_0 = 10 Hz, we observe that an initial 10-Hz Hopf oscillator successfully “learns” the frequency of the 3-Hz input signal, as evinced by the dynamics of the oscillator’s natural frequency (i.e., omega). This learning is also evident in the time domain: as the Hopf oscillator nears the moment of synchronization (time 130 – 140), the phase of the oscillator fluctuates wildly before settling in lock-step with the driving signal.
+
 
 <p align="center">
-  <img src="/img/Hopf_RhythmFreq1.png"/>
-  <figcaption>
-                <font size="2">A 10-Hz adaptive-frequency Hopf oscillator learns the frequency of a 3-Hz input signal.
-				Here, x = 0, y = 1, e = 1, and m = 1. </font>
+<img src="/img/Hopf_PhaseP.gif">
+<figcaption>  <font size="2">Simulation of an adaptive-frequency Hopf oscillator that learns the frequency of a 3-Hz input signal. Top: phase space of the Hopf oscillator. Middle: Changes in oscillator naturally frequency over time. The horizontal dashed line denotes the target frequency of 3 Hz.
+Bottom: Time series of the Hopf oscillator (y component) and the input signal. Here, x = 0, y = 1, e = 1, and m = 1. </font>
 </figcaption>
 </p>
 
-<p align="center">
-  <img src="/img/Hopf_RhythmFreq2.png"/>
-    <figcaption>
-                <font size="2">Top: A 10-Hz adaptive-frequency Hopf oscillator learns the frequency of a 3-Hz input signal.
-				Bottom: Time-series of 3-Hz input signal and the y component of the Hopf oscillator . </font>
-</figcaption>
-</p>
 
 Next, we can investigate the effects of the learning rate, the epsilon parameter, on the dynamics of frequency adaptation. I aimed to replicate Figure 2 from the manuscript, which reports the effect of increasing the learning rate on the dynamics frequency adaption. Similar to our first simulation, the oscillator is being driven by periodic forcing at 30 Hz, but now we vary the epsilon parameter, which controls the learning rate of the system. The initial condition of oscillator natural frequency is set to 40 Hz for several learning rates. Unsurprisingly, a slower learning rate requires more time for the oscillator to learn the frequency of the external signal (epsilon = 0.4 converges < 500 time, while epsilon = 1 converges > 2000 time). However, it is clear that the learning rate controls the overall timescale of frequency adaption.
 
