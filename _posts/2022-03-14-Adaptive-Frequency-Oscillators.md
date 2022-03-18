@@ -45,7 +45,7 @@ In the time domain, we can also clearly identify the moment when an oscillator l
 <p align="center">
 <img src="/img/Hopf_PhaseP2.gif">
 <figcaption>  <font size="2">Simulation of an adaptive-frequency Hopf oscillator that learns the frequency of a 3-Hz input signal. Top: phase space of the Hopf oscillator. Middle: Changes in oscillator naturally frequency (i.e., omega) over time. The horizontal dashed line denotes the target frequency of 3 Hz.
-Bottom: Time series of the Hopf oscillator (y component) and the input signal. Here, x = 0, y = 1, e = 1, and m = 1. </font>
+Bottom: Time series of the Hopf oscillator (y component, purple line) and the 3-Hz input signal (dashed line). Here, x = 0, y = 1, e = 1, and m = 1. </font>
 </figcaption>
 </p>
 
