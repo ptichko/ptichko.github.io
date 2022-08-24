@@ -46,7 +46,7 @@ ___
 <div class="left_figure"><figure>
 	<img src="/img/FFR_G5.png" alt="FFR Fine Structure Model" style="float: left" width="400" hspace="25" vspace="25" />
 	<figcaption>
-		<font size="2"><i>Computational model of the frequency-following response (Tichko & Skoe, 2018).</i></font>
+		<font size="2"><i>Computational model of the frequency-following response (Tichko & Skoe, 2017).</i></font>
 	</figcaption>
 </figure></div>
 
