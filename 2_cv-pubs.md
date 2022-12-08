@@ -10,7 +10,7 @@ ___
 
 ### Publications
 
-**Tichko, P.**, Page, N., Kim, J.C., Large, E., Loui, P. (2022). [Neural Entrainment to Musical Pulse in Naturalistic Music Is Preserved in Aging: Implications for Music-Based Interventions.](https://www.mdpi.com/2076-3425/12/12/1676) Brain Sci. 2022, 12, 1676.
+**Tichko, P.**, Page, N., Kim, J.C., Large, E., Loui, P. (2022). [Neural Entrainment to Musical Pulse in Naturalistic Music Is Preserved in Aging: Implications for Music-Based Interventions.](https://www.mdpi.com/2076-3425/12/12/1676) Brain Sciences.
 
 **Tichko P.**, Kim, J.C., & Large, E. (2022). [A Dynamical, Radically Embodied, and Ecological Theory of Rhythm Development.](https://www.frontiersin.org/articles/10.3389/fpsyg.2022.653696/full) Frontiers in Psychology (Comparative Psychology).
 
