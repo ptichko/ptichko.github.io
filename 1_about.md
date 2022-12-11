@@ -31,7 +31,7 @@ Years ago, I authored a [book](https://acoustica.com/mixcraft/edu/v9) about teac
 When my schedule permits, I also make high-quality audio demos for music-software companies that illustrate the sonic capabilities of their products. (Here's an [example](https://cherryaudio.com/products/dco-106).)
 
 
-**Great thinkers who influenced me:** [Leonard B. Meyer](https://en.wikipedia.org/wiki/Leonard_B._Meyer), [Gilbert Gottlieb](https://en.wikipedia.org/wiki/Gilbert_Gottlieb), [Thomas Sowell](https://en.wikipedia.org/wiki/Thomas_Sowell)
+**Great thinkers who influenced me:** [Leonard B. Meyer](https://en.wikipedia.org/wiki/Leonard_B._Meyer), [Gilbert Gottlieb](https://en.wikipedia.org/wiki/Gilbert_Gottlieb), [Michael Turvey](https://en.wikipedia.org/wiki/Michael_Turvey), [Thomas Sowell](https://en.wikipedia.org/wiki/Thomas_Sowell)
 
 **Great manuscripts that influenced me:**
 It is a rare occurrence to encounter a manuscript that, with striking clarity and erudition, manages to reveal, overturn, and even confute wrongly held assumptions on the part of the reader, or worse, an entire scientific field. Gathered here is a list of manuscripts that, over the span of my intellectual trajectory, have done just that. Many of these articles describe dynamical systems approaches to cognition, perception-action, development, and music, and reflect my continuing transition,  as scientist, from a reductionist framework to a complexity framework.
