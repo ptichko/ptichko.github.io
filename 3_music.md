@@ -23,7 +23,7 @@ Inspired by early 20th century music, specifically Debussy and Poulenc, the drif
 ### Prelude No. 2 “Lullaby”  <a href="/CV/parkertichkopreludeno2.pdf" target="_blank"><i class="fa fa-file-text fa-md"></i></a>.
 A short, lyrical piece reminiscent of Scriabin and Chopin.  Performer is Steven Kim, recording taken on August 11th 2011 in Las Vegas.
 
-### Nocturne in F# Minor (abridged version)
+### Nocturne in F# Minor (abridged version) <a href="/CV/Nocturne1UrbanFINAL3.pdf" target="_blank"><i class="fa fa-file-text fa-md"></i></a>.
 A tribute to the 19th century genre, Nocturne means “night-song” and is often associated with pensive and melancholic moods. Performer is Pianist Guy Urban, recording taken from a recital on May 6th 2010 at Wheaton College.
 
 ### 1 Movement For String Quartet (Winter) (Condensed)
