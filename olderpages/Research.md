@@ -20,7 +20,7 @@ To examine the neurobiological, developmental, and computational principles unde
 
 I also have pet interests in dynamical systems approaches to perception-action, the limits of reductionism in developmental theory (e.g., developmental systems theory), and the ecological psychology of J.J. Gibson.
 
-Click for my [google scholar](https://scholar.google.com/citations?user=HYUPaSIAAAAJ&hl=en&authuser=1) and [coding projects](https://github.com/ptichko). 
+Click for my [google scholar](https://scholar.google.com/citations?user=9prLdmMAAAAJ&hl=en) and [coding projects](https://github.com/ptichko). 
 
 ___
 
