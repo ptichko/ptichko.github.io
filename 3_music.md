@@ -19,16 +19,21 @@ ___
 
 As an adolescent, I was primarily interested in rock, jazz, and popular musics. However, as an undergraduate music student, I became deeply interested in what one may broadly refer to as "classical" music composition, particularly compositional practices from the romantic period following through 20th-century moderism. During college and shortly after (circa 2009-2011), I explored this interest by composing several works for solo piano (Preludes No. 1 & 2, Nocturne in F# Minor) and one movement for a string quartet titled "Winter". Unforunately, this interest in composition was neglected over the ensuing decade, while I advanced in my scientific career. It wasn't until the COVID pandemic that I began to revisit my initial interest in music composition and started composing new works for solo piano. 
 
-### Prelude No. 1: “Snowfall” (2010) <a href="/CV/parkertichkopreludeno1.pdf" target="_blank"><i class="fa fa-file-text fa-md"></i></a>.
+### Prelude No. 1: “Snowfall” (2010)
+Score  <a href="/CV/parkertichkopreludeno1.pdf" target="_blank"><i class="fa fa-file-text fa-md"></i></a>.
 Inspired by early 20th century music, specifically Debussy and Poulenc, the drifting, meandering nature of this programmatic piece paints a scene of snowflakes settling on a cold winter evening. Written as an undergraduate student circa late 2009 and early 2010. This piece employs the whole-tone scale, syncopation, and a central motif that is continuously embellished with each repetition throughout the work.
 
-### Nocturne in F# Minor (abridged version) (2010) <a href="/CV/Nocturne1UrbanFINAL3.pdf" target="_blank"><i class="fa fa-file-text fa-md"></i></a>.
+### Nocturne in F# Minor (abridged version) (2010) 
+Score <a href="/CV/Nocturne1UrbanFINAL3.pdf" target="_blank"><i class="fa fa-file-text fa-md"></i></a>.
 A tribute to the 19th century genre, Nocturne means “night-song” and is often associated with pensive and melancholic moods. Performer is pianist and music profesor Guy Urban, recording taken from a recital on May 6th 2010 at Wheaton College. Written as an undergraduate student.
 
 ### Prelude No. 2 “Lullaby” (2011)  <a href="/CV/parkertichkopreludeno2.pdf" target="_blank"><i class="fa fa-file-text fa-md"></i></a>.
-A short, lyrical piece reminiscent of Scriabin and Chopin.  Performer is Steven Kim, recording taken on August 11th 2011 in Las Vegas. Written shortly after my undergaduate studies circa early to mid 2011.
+Original score (2011) <a href="/CV/parkertichkopreludeno2.pdf" target="_blank"><i class="fa fa-file-text fa-md"></i></a>.
+Updated score (2024) Original score (2011) <a href="/CV/PreludeNo.2_2024.pdf" target="_blank"><i class="fa fa-file-text fa-md"></i></a>.
+A short, lyrical piece reminiscent of Scriabin and Chopin. Performer is Steven Kim, recording taken on August 11th 2011 in Las Vegas. Written shortly after my undergaduate studies circa early to mid 2011. During my process of working with Steven, I re-composed several measures of the piece, which are reflected in his performance. It took me until 2024 to notate those changes properly. Included here are both the original 2011 score and an udpated 2024 score, which reflects the audio recording featuring Steven Kim.
 
-### 1 Movement For String Quartet (Winter) (Condensed) (2011)  <a href="/CV/String Quartet Final Score 7-4 Version.pdf" target="_blank"><i class="fa fa-file-text fa-md"></i></a>.
+### 1 Movement For String Quartet (Winter) (Condensed) (2011)
+Score  <a href="/CV/String Quartet Final Score 7-4 Version.pdf" target="_blank"><i class="fa fa-file-text fa-md"></i></a>.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0rfiWAt4_Mc?si=BvOf6zxkUlAWsWWG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The piece is a condensed movement, from an unfinished grander work revolving around the four seasons, that is centered around a 7-tone theme. I was privileged enough to have the piece performed by the talented Aurea Ensemble at Wheaton College (MA) on May 6th 2011. The intended tempo of the piece is quite demanding, and, ultimately, the Aurea Ensemble performed the work at a slower tempo to meet the recital deadline. However, in a cheap attempt to realize the piece's intended tempo, I time-warped the [audio track](https://soundcloud.com/parkertichko/1-movement-for-string?si=1a8f03af21124ed6be5caa8bd2b145c0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing) from the video recording, increasing the audio recording to approximately its notated tempo. It's fast! Upon listening, a local, Boston-based composer mentioned that the work reminded him of Bartok. Unfamiliar with Bartok's music, I eventually discovered, years later, his string quartets which have a remarkably similar aesthetic to "Winter."   
