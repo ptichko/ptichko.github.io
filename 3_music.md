@@ -33,9 +33,10 @@ Updated score (2024) <a href="/CV/PreludeNo.2_2024.pdf" target="_blank"><i class
 A short, lyrical piece reminiscent of Scriabin and Chopin. Performer is Steven Kim, recording taken on August 11th 2011 in Las Vegas. Written shortly after my undergaduate studies circa early to mid 2011. During my process of working with Steven, I re-composed several measures of the piece, which are reflected in his performance. It took me until 2024 to notate those changes properly. Included here are both the original 2011 score and an udpated 2024 score, which reflects the audio recording featuring Steven Kim.
 
 ### 1 Movement For String Quartet (Winter) (Condensed) (2011)
-Score  <a href="/CV/String Quartet Final Score 7-4 Version.pdf" target="_blank"><i class="fa fa-file-text fa-md"></i></a>.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0rfiWAt4_Mc?si=BvOf6zxkUlAWsWWG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+Score  <a href="/CV/String Quartet Final Score 7-4 Version.pdf" target="_blank"><i class="fa fa-file-text fa-md"></i></a>.
 The piece is a condensed movement, from an unfinished grander work revolving around the four seasons, that is centered around a 7-tone theme. I was privileged enough to have the piece performed by the talented Aurea Ensemble at Wheaton College (MA) on May 6th 2011. The intended tempo of the piece is quite demanding, and, ultimately, the Aurea Ensemble performed the work at a slower tempo to meet the recital deadline. However, in a cheap attempt to realize the piece's intended tempo, I time-warped the [audio track](https://soundcloud.com/parkertichko/1-movement-for-string?si=1a8f03af21124ed6be5caa8bd2b145c0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing) from the video recording, increasing the audio recording to approximately its notated tempo. It's fast! Upon listening, a local, Boston-based composer mentioned that the work reminded him of Bartok. Unfamiliar with Bartok's music, I eventually discovered, years later, his string quartets which have a remarkably similar aesthetic to "Winter."   
 
 
