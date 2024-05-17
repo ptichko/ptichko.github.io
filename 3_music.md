@@ -30,7 +30,7 @@ A tribute to the 19th century genre, Nocturne means “night-song” and is ofte
 ### Prelude No. 2 “Lullaby” (2011)  <a href="/CV/parkertichkopreludeno2.pdf" target="_blank"><i class="fa fa-file-text fa-md"></i></a>.
 Original score (2011) <a href="/CV/parkertichkopreludeno2.pdf" target="_blank"><i class="fa fa-file-text fa-md"></i></a>.
 Updated score (2024) <a href="/CV/PreludeNo.2_2024.pdf" target="_blank"><i class="fa fa-file-text fa-md"></i></a>.
-A short, lyrical piece reminiscent of Scriabin and Chopin. Performer is Steven Kim, recording taken on August 11th 2011 in Las Vegas. Written shortly after my undergaduate studies circa early to mid 2011. During my process of working with Steven, I re-composed several measures of the piece, which are reflected in his performance. It took me until 2024 to notate those changes properly. Included here are both the original 2011 score and an udpated 2024 score, which reflects the audio recording featuring Steven Kim.
+A short, lyrical piece reminiscent of Scriabin and Chopin. Performer is Steven Kim, recording taken on August 11th 2011 in Las Vegas. Written shortly after my undergaduate studies circa early to mid 2011. During my process of working with Steven, I re-composed several measures of the piece, which are mostly reflected in his performance. It took me until 2024 to notate those changes properly. Included here are both the original 2011 score and an udpated 2024 score, which is more representative of Steven Kim's performance.
 
 ### 1 Movement For String Quartet (Winter) (Condensed) (2011)
 
