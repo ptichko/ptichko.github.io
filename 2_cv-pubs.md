@@ -10,7 +10,7 @@ ___
 
 ### Publications
 
-**Tichko, P.**, Kohn, G. (2024). [Is there a poverty of the stimulus? Lessons from developmental systems.](https://osf.io/preprints/psyarxiv/5t42s) PsyArxiv (Pre-Print).
+**Tichko, P.** & Kohn, G. (2024). [Is there a poverty of the stimulus? Lessons from developmental systems.](https://osf.io/preprints/psyarxiv/5t42s) PsyArxiv (Pre-Print).
 
 **Tichko, P.**, Kim, J.C., Zappi, V., Large, E., Loui, P. (2022). [Integrating music-based interventions with gamma-frequency stimulation for Subjective Cognitive Decline and Mild Cognitive Impairment.](https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.062532) Alzheimer's & Dementia.
 
