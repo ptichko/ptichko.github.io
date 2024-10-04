@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Parker Tichko - Music For Ferns (2024) Is Out Now"
+title:  "Parker Tichko - Music For Ferns (2024)"
 ---
 
-# Music For Ferns (2024) Is Out Now
+# Music For Ferns (2024) 
 
 <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=2824364248/size=large/bgcol=ffffff/linkcol=2ebd35/tracklist=false/transparent=true/" seamless><a href="https://parkertichko.bandcamp.com/album/music-for-ferns">Music For Ferns by Parker Tichko</a></iframe>
 
@@ -26,7 +26,7 @@ I fell in love with the warm, organic tones of plant music that was largely comp
 <p align="center">
   <img src="/img/fern1.jpeg"/>
   <figcaption>
-                <font size="2">Wild cinnamon ferns in a New England forest. Photography by Brant Tichko.</font>
+  <font size="2">Wild cinnamon ferns in a New England forest. Photography by Brant Tichko.</font>
 </figcaption>
 </p>
 
