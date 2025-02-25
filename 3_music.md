@@ -9,7 +9,7 @@ header-img: "img/Banner.jpg"
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2824364248/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://parkertichko.bandcamp.com/album/music-for-ferns">Music For Ferns by Parker Tichko</a></iframe>
 
-Music For Ferns (2024) is a short instrumental cycle of synthesizer and electronic music dedicated to the ontogenetic life-cycle of the fern. This mini-album features soft, warm, organic, and, at times, shimmering tones created with a variety of analog synthesizers from the 1970s/1980s for plants (and people) to listen to. You can stream it on [Spotify](https://open.spotify.com/album/4QTmRmxs9WUQ5iCbSsw76R?si=JE0bu4-fSQeRW6Fe7Dvjkg_), Apple Music, etc., or support the project directly by purchasing the album on [Bandcamp](https://parkertichko.bandcamp.com/album/music-for-ferns).
+[Music For Ferns (2024)](https://ptichko.github.io/2024/10/02/Music-For-Ferns-(2024).html) is a short instrumental cycle of synthesizer and electronic music dedicated to the ontogenetic life-cycle of the fern. This mini-album features soft, warm, organic, and, at times, shimmering tones created with a variety of analog synthesizers from the 1970s/1980s for plants (and people) to listen to. You can stream it on [Spotify](https://open.spotify.com/album/4QTmRmxs9WUQ5iCbSsw76R?si=JE0bu4-fSQeRW6Fe7Dvjkg_), Apple Music, etc., or support the project directly by purchasing the album on [Bandcamp](https://parkertichko.bandcamp.com/album/music-for-ferns).
 
 ___
 
