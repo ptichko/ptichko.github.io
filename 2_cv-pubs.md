@@ -10,9 +10,9 @@ ___
 
 ### Publications
 
-Harding, E.E.,Kim, J.C., Demos, A.P., Roman, I.R., **Tichko, P.**, Palmer, C. & Large, E. (2025). [Musical neurodynamics](https://www.nature.com/articles/s41583-025-00915-4) Nature Reviews Neuroscience.
+Harding, E.E.,Kim, J.C., Demos, A.P., Roman, I.R., **Tichko, P.**, Palmer, C. & Large, E. (2025). [Musical neurodynamics.](https://www.nature.com/articles/s41583-025-00915-4) Nature Reviews Neuroscience.
 
-Tonelli, L., **Tichko, P.** & Skoe, E. (2025). [Revisiting the 40-Hz gamma response: Phase-locked neural activity along the human auditory pathway relates to bilingual experience](https://www.sciencedirect.com/science/article/pii/S0093934X24001299) Brain and Language.
+Tonelli, L., **Tichko, P.** & Skoe, E. (2025). [Revisiting the 40-Hz gamma response: Phase-locked neural activity along the human auditory pathway relates to bilingual experience.](https://www.sciencedirect.com/science/article/pii/S0093934X24001299) Brain and Language.
 
 **Tichko, P.** & Kohn, G. (2024). [Is there a poverty of the stimulus? Lessons from developmental systems.](https://osf.io/preprints/psyarxiv/5t42s) PsyArxiv (Pre-Print).
 
