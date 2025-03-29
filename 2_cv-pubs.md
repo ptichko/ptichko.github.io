@@ -10,7 +10,7 @@ ___
 
 ### Publications
 
-Tonelli, L., **Tichko, P.** & Skoe, E. (2025). [Revisiting the 40-Hz gamma response: Phase-locked neural activity along the human auditory pathway relates to bilingual experience] (https://www.sciencedirect.com/science/article/pii/S0093934X24001299) Brain and Language.
+Tonelli, L., **Tichko, P.** & Skoe, E. (2025). [Revisiting the 40-Hz gamma response: Phase-locked neural activity along the human auditory pathway relates to bilingual experience](https://www.sciencedirect.com/science/article/pii/S0093934X24001299) Brain and Language.
 
 **Tichko, P.** & Kohn, G. (2024). [Is there a poverty of the stimulus? Lessons from developmental systems.](https://osf.io/preprints/psyarxiv/5t42s) PsyArxiv (Pre-Print).
 
