@@ -4,7 +4,7 @@ title: "CV & Publications"
 header-img: "img/Banner.jpg"
 ---
 
-My full CV is here <a href="/CV/PT_CV_2022.pdf" target="_blank"><i class="fa fa-file-text fa-md"></i></a>.
+My full CV is here <a href="/CV/PT_CV.pdf" target="_blank"><i class="fa fa-file-text fa-md"></i></a>.
 
 ___
 
