@@ -62,3 +62,8 @@ Simiar to the Romance in F-Major (2023), this waltz served largely as an exercis
 
 Score  <a href="/CV/Prelude No. 3, E-Major.pdf" target="_blank"><i class="fa fa-file-text fa-md"></i></a>.
 Continuing the theme of returning-to-composition, I composed this short, romantic-style prelude, while being utterlying absorbed by Felix Mendelssohn's Andante and Rondo Capriccioso, Opus 14. The opening andante section is some of the most beautiful piano music ever composed. This prelude shares similar melodic moments, such as an upper melody that spells out an e-major chord. The prelude ends with some gentle, impressionist-like chords, loosely inspired by the sound of MacDowell's Woodland Sketches, Op. 51: No. 6. To a Water-lily.
+
+### Mazurka, A-Minor (2024-2025)
+
+Score  <a href="/CV/Mazurka, A-Minor.pdf" target="_blank"><i class="fa fa-file-text fa-md"></i></a>.
+Inspired by the strange and dream-like mazurkas of F. Chopin, this mazurka has an ABCAB form that traverses the keys of A-minor, D-major, and D-minor, with each key associatd with a different mood or miniature form within the overarching piece. For instance, the A-minor section is a slow and sorrowful, whie the D-major major is a frenzic, waltz-like dance. The harmonic structure in the A section is loosely based off of Chopin's [waltz in A minor, Op. 34, No. 2](https://en.wikipedia.org/wiki/Waltzes,_Op._34_(Chopin)) 
