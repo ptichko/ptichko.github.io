@@ -9,6 +9,9 @@ My full CV is here <a href="/CV/PT_CV.pdf" target="_blank"><i class="fa fa-file-
 ___
 
 ### Publications
+ **Tichko, P.** & Kohn, G. (2026). [Is there a poverty of the stimulus? Lessons from developmental systems.](https://psycnet.apa.org/doiLanding?doi=10.1037%2Fteo0000364) Journal of Theoretical and Philosophical Psychology.
+
+Large, E., Harding, E.E.,Kim, J.C., Demos, A.P., Roman, I.R., **Tichko, P.** & Palmer, C. (2026). [Reply to ‘Musical neurodynamics and the ‘inner voice’’](https://www.nature.com/articles/s41583-026-01039-z) Nature Reviews Neuroscience.
 
 Harding, E.E.,Kim, J.C., Demos, A.P., Roman, I.R., **Tichko, P.**, Palmer, C. & Large, E. (2025). [Musical neurodynamics.](https://www.nature.com/articles/s41583-025-00915-4) Nature Reviews Neuroscience.
 
