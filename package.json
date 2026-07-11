@@ -20,6 +20,7 @@
         "url": "https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll.git"
     },
     "overrides": {
-        "minimatch": "3.1.5"
+        "minimatch": "3.1.5",
+        "js-yaml": "3.15.0"
     }
 }
