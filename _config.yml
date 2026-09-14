@@ -1,10 +1,10 @@
 # Site settings
 title: Parker Tichko
 header-img: img/Banner.jpg
-email: parker.tichko@gmail.edu
+email: ""
 description: "Website Parker Tichko"
 baseurl: ""
-url: "http://ptichko.github.io"
+url: "https://ptichko.github.io"
 twitter_username: parkertichko
 github_username:  ptichko
 
@@ -16,4 +16,4 @@ markdown: kramdown
 highlighter: rouge
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-gems: [jekyll-paginate, jekyll-feed]
+plugins: [jekyll-paginate, jekyll-feed]

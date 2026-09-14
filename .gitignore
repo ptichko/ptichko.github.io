@@ -1,0 +1,11 @@
+node_modules/
+.env
+.Rhistory
+.DS_Store
+Thumbs.db
+*.log
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+_site/
+_includes/_site/
