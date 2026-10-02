@@ -118,6 +118,29 @@ resize it to roughly twice its largest on-screen display size and re-encode
 (quality ~82 for photos, quantized to 256 colors for line art). A 12 MB GIF
 became a 2 MB WebP this way.
 
+When re-encoding, apply the EXIF orientation before writing, or the photo ends
+up sideways. Phone cameras save portrait shots with the pixels unrotated plus
+an `Orientation` tag of 6 or 8 telling viewers which way to turn them; any tool
+that writes a fresh JPEG drops that tag, and the rotation is lost with it.
+
+```python
+from PIL import Image
+
+# Verified visually: the tag describes the turn a viewer must apply, so to bake
+# it into the pixels you rotate the opposite way.
+ORIENTATION = {6: Image.Transpose.ROTATE_270, 8: Image.Transpose.ROTATE_90}
+
+im = Image.open(path)
+exif = im.getexif()
+orientation = exif.get(274) if exif else None
+if orientation in ORIENTATION:
+    im = im.transpose(ORIENTATION[orientation])
+im.convert("RGB").save(path, "JPEG", quality=82, optimize=True, progressive=True)
+```
+
+Rotating changes the dimensions, so check the `width`/`height` on any
+referencing `<img>` afterwards — they must match the upright image.
+
 Icon-only links need a text label for screen readers:
 
 ```html

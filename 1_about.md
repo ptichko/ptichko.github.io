@@ -10,7 +10,7 @@ header-img: "img/Banner.jpg"
 
 <div class="about-portrait">
 <figure>
-	<img src="/img/AboutMe_pic_2.jpg" alt="Portrait of Parker Tichko." width="400" height="300" loading="lazy" decoding="async">
+	<img src="/img/AboutMe_pic_2.jpg" alt="Portrait of Parker Tichko." width="300" height="400" loading="lazy" decoding="async">
 	<figcaption>Boston, 2022.</figcaption>
 </figure>
 </div>

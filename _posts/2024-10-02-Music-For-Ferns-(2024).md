@@ -22,7 +22,7 @@ During the pandemic, I discovered a sub-genre of early electronic music written 
 In addition to musical sources, Music For Ferns was also inspired by the lush cinnamon ferns of New England. Shown here is photography by my brother, Brant Tichko, who felt inspired to capture a few plants in their New-England ecology:
 
 <figure class="text-center">
-  <img src="/img/fern1.jpeg" alt="Close-up of wild cinnamon ferns growing in a New England forest." width="1400" height="933" loading="lazy" decoding="async">
+  <img src="/img/fern1.jpeg" alt="Close-up of wild cinnamon ferns growing in a New England forest." width="667" height="1000" loading="lazy" decoding="async">
   <figcaption>Wild cinnamon ferns in a New England forest. Photography by Brant Tichko.</figcaption>
 </figure>
 
