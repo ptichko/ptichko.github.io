@@ -559,8 +559,13 @@ figure.text-center {
 	text-align: center;
 }
 
+// Portrait floated into the left margin with body text wrapping to its right.
+// The clear matters: the first portrait is taller than the paragraph beside
+// it, so without it the next portrait would be placed to the right of that
+// still-active float instead of starting at the left margin.
 .about-portrait {
 	float: left;
+	clear: left;
 	padding-right: 25px;
 	padding-bottom: 25px;
 	max-width: 100%;
