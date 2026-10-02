@@ -1,9 +1,9 @@
 ---
 layout: page
 title: "Teaching"
-description: "Archived teaching experience from a previous chapter of my career."
-nav: false
-archived: true
+description: "Courses taught, teaching awards, and student evaluations."
+nav: true
+nav_order: 7
 header-img: "img/Banner.jpg"
 ---
 ## Teaching Experience
