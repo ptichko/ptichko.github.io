@@ -1,6 +1,9 @@
 ---
 layout: page
 title: "Contact"
+description: "How to reach me."
+nav: true
+nav_order: 4
 header-img: "img/Banner.jpg"
 ---
 

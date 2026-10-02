@@ -1,22 +1,25 @@
 ---
 layout: page
 title: "About Me"
+description: "Cognitive scientist, musician, and composer. Formerly researching rhythm and cognition."
+nav: true
+nav_order: 1
 header-img: "img/Banner.jpg"
 ---
-# Parker Tichko, PhD.
+## Parker Tichko, PhD.
 
-<div style="float: left; padding-right: 25px; padding-bottom: 25px">
-	<img src="/img/AboutMe_pic_2.jpg" width="400" alt="Parker Tichko" onclick="_gaq.push(['_trackEvent', 'IMGs', 'Image', 'Ironman']);" />
-	<figcaption>
-                <font size="2">Boston, 2022.</font>
-    </figcaption>
+<div class="about-portrait">
+<figure>
+	<img src="/img/AboutMe_pic_2.jpg" alt="Portrait of Parker Tichko." width="400" height="300" loading="lazy" decoding="async">
+	<figcaption>Boston, 2022.</figcaption>
+</figure>
 </div>
 
-<div style="float: left; padding-right: 25px; padding-bottom: 25px">
-	<img src="/img/AboutMe2.jpg" width="400" alt="Parker Tichko" onclick="_gaq.push(['_trackEvent', 'IMGs', 'Image', 'Ironman']);" />
-	<figcaption>
-                <font size="2">Running an infant music study, Las Vegas, 2011.</font>
-    </figcaption>
+<div class="about-portrait">
+<figure>
+	<img src="/img/AboutMe2.jpg" alt="Parker Tichko setting up recording equipment for an infant music study." width="400" height="253" loading="lazy" decoding="async">
+	<figcaption>Running an infant music study, Las Vegas, 2011.</figcaption>
+</figure>
 </div>
 
 Hello. I’m a cognitive neuroscientist interested in artificial intelligence (AI), 4E cognition, human development, music cognition, dynamical systems theory, and the brain. For roughly a decade, I conducted academic research investigating the developmental, neurobiological, and computational principles underlying music and language. After turning down a tenure-track academic job and doing a bit of soul-searching, I now work on human-AI systems. Below, you can find a brief synopsis of my professional trajectory:

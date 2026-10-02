@@ -1,5 +1,5 @@
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top" aria-label="Main">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
@@ -18,11 +18,12 @@
                 <li>
                     <a href="{{ site.baseurl }}/">Home</a>
                 </li>
-                {% for page in site.pages %}{% if page.title %}
+                {% assign nav_pages = site.pages | where: "nav", true | sort: "nav_order" %}
+                {% for nav_page in nav_pages %}
                 <li>
-                    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                    <a href="{{ nav_page.url | prepend: site.baseurl }}">{{ nav_page.title }}</a>
                 </li>
-                {% endif %}{% endfor %}
+                {% endfor %}
             </ul>
         </div>
         <!-- /.navbar-collapse -->

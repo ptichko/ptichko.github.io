@@ -1,13 +1,11 @@
 ---
 layout: post
-title:  "R Function to Reverse Code a Likert Scale"
+title: "R Function to Reverse Code a Likert Scale"
 ---
-
-# An R Function to Reverse Code a Likert Scale
 
 A recent research project required that I reverse code several items on a questionnaire before scoring the questionnaire. Reverse coding is neccessary when certain items on a questionnare are negatively worded, such that a low score really corresponds to a high score. Ideally, before conducting any sort of analysis, we should ensure that the direction of low and high scores across all questionnaire items is uniform.
 
-You can download the R function here <a href="/r/reverseCode.R" target="_blank"><i class="fa fa-file-text fa-md"></i></a> and load it into your R session using the source() function:
+You can download the R function here <a href="/r/reverseCode.R" target="_blank" rel="noopener"><i class="fa fa-file-text fa-md" aria-hidden="true"></i><span class="visually-hidden">Download the R function reverseCode.R</span></a> and load it into your R session using the source() function:
 
 ```
 source("reverseCode.R")

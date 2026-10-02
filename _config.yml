@@ -15,5 +15,6 @@ github_username:  ptichko
 markdown: kramdown
 highlighter: rouge
 paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-plugins: [jekyll-paginate, jekyll-feed]
+exclude: ["less","node_modules","Gruntfile.js","package.json","package-lock.json","README.md","Gemfile","LICENSE",".Rhistory"]
+plugins: [jekyll-paginate, jekyll-sitemap]
+excerpt_separator: "\n\n"

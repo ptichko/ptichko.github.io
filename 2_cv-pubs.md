@@ -1,14 +1,17 @@
 ---
 layout: page
 title: "CV & Publications"
+description: "Curriculum vitae, peer-reviewed publications, and books."
+nav: true
+nav_order: 2
 header-img: "img/Banner.jpg"
 ---
 
-My full CV is here <a href="/CV/PT_CV.pdf" target="_blank"><i class="fa fa-file-text fa-md"></i></a>.
+My full CV is here <a href="/CV/PT_CV.pdf" target="_blank" rel="noopener"><i class="fa fa-file-text fa-md" aria-hidden="true"></i><span class="visually-hidden">Download my full curriculum vitae as a PDF</span></a>.
 
 ___
 
-### Publications
+## Publications
  **Tichko, P.** & Kohn, G. (2026). [Is there a poverty of the stimulus? Lessons from developmental systems.](https://psycnet.apa.org/doiLanding?doi=10.1037%2Fteo0000364) Journal of Theoretical and Philosophical Psychology.
 
 Large, E., Harding, E.E.,Kim, J.C., Demos, A.P., Roman, I.R., **Tichko, P.** & Palmer, C. (2026). [Reply to ‘Musical neurodynamics and the ‘inner voice’’](https://www.nature.com/articles/s41583-026-01039-z) Nature Reviews Neuroscience.
@@ -43,7 +46,7 @@ Ullal-Gupta, S., De Nederlanden, C.M.V.B., **Tichko, P.**, Lahav, A., & Hannon, 
  
 Hannon, E.E., der Nederlanden, C.M.V.B., & **Tichko, P.** (2012). [Effects of perceptual experience on children’s and adults’ perception of unfamiliar rhythms.](https://doi.org/10.1111/j.1749-6632.2012.06466.x) Annals of the New York Academy of Sciences. 
 
-### Books
+## Books
 
 __Tichko, P.__ (2020). Mixcraft 9 Teacher’s guide. Oakhurst, CA: Acoustica.
 

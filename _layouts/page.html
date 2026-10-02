@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Page Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+<header class="intro-header" style="background-image: url('{% if page.header-img %}{{ page.header-img | prepend: site.baseurl | prepend: "/" }}{% else %}{{ site.header-img | prepend: site.baseurl | prepend: "/" }}{% endif %}')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -18,6 +18,18 @@ layout: default
 </header>
 
 <!-- Main Content -->
+<main id="main">
+{% if page.archived %}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="alert alert-warning" role="note">
+                <strong>Archived page.</strong> This page describes an earlier chapter of my career and is no longer kept up to date. See <a href="{{ "/1_about.html" | prepend: site.baseurl }}">About Me</a> for current information.
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
 <div class="container">
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -25,5 +37,6 @@ layout: default
 		</div>
 	</div>
 </div>
+</main>
 
 <hr>

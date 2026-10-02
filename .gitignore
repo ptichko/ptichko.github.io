@@ -9,3 +9,4 @@ Thumbs.db
 .jekyll-metadata
 _site/
 _includes/_site/
+Gemfile.lock

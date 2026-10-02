@@ -1,9 +1,7 @@
 ---
 layout: post
-title:  " Simulating Adaptive-Frequency Oscillators in MATLAB"
+title: "Simulating Adaptive-Frequency Oscillators in MATLAB"
 ---
-
-# Dynamical Systems Models of Adaptive-Frequency Oscillators
 
 Non-linear oscillators have become widely adopted in cognitive science as models of *synchronization* and *entrainment*—a dynamic process in which a system’s activity aligns in time with an external, time-varying input signal. Indeed, many systems that are of interest to cognitive scientists, across multiple scales of organization, exhibit a remarkable ability to synchronize their behavior to time-varying signals, such as the synchronized activity of neural ensembles to sensory stimulation, synchronized human action to auditory rhythms (e.g., music), and the macro-scopic synchronized activity of large social groups, such as fireflies and drum circles. Models of oscillation are particularly suited to explain these kinds of synchronized phenomena, as they possess all kinds of synchronization dynamics, such as phase-, mode-, and frequency-locking, that emerge naturally from dynamical laws that govern their motion and their coupling to input signals. Such oscillatory dynamics may reflect the physical principles that underlie how neural systems, agents, and social groups coordinate their activity over time.
 
@@ -17,64 +15,64 @@ Recently, I began to implement Righetti, Buchli, & Ijspeert (2006)’s Hebbian l
 The Hopf oscillator is a non-linear oscillator that spontaneously oscillates, i.e., spontaneously enters a limit cycle, producing a non-zero amplitude. The equations of motion for the Hopf oscillator are given by the following system of ODEs, here represented in Cartesian coordinates:
 
 
-<p align="center">
-<img src="https://latex.codecogs.com/svg.image?\begin{array}{l}\dot{x}=\left(\mu-r^{2}\right)&space;x-\omega&space;y&plus;\epsilon&space;F&space;\\\dot{y}=\left(\mu-r^{2}\right)&space;y&plus;\omega&space;x\end{array}">
-</p>
+<figure class="text-center">
+<img src="https://latex.codecogs.com/svg.image?\begin{array}{l}\dot{x}=\left(\mu-r^{2}\right)&space;x-\omega&space;y&plus;\epsilon&space;F&space;\\\dot{y}=\left(\mu-r^{2}\right)&space;y&plus;\omega&space;x\end{array}" alt="Equations of motion for the Hopf oscillator in Cartesian coordinates: x dot equals the quantity mu minus r squared, times x, minus omega times y, plus epsilon times F; y dot equals the quantity mu minus r squared, times y, plus omega times x." loading="lazy" decoding="async">
+</figure>
 
 
 Where r = sqrt(x^2 + y^2), mu > 0, F is the input signal, omega is oscillator natural frequency, and epsilon is a coupling coefficient to the input signal (and the learning rate; see below). Righetti et al., (2006) introduces a Hebbian learning rule for the Hopf oscillator that takes the following form:
 
-<p align="center">
-<img src="https://latex.codecogs.com/svg.image?\dot{\omega}=-\epsilon&space;F&space;\frac{y}{\sqrt{x^{2}&plus;y^{2}}}">
-</p>
+<figure class="text-center">
+<img src="https://latex.codecogs.com/svg.image?\dot{\omega}=-\epsilon&space;F&space;\frac{y}{\sqrt{x^{2}&plus;y^{2}}}" alt="Hebbian learning rule for the Hopf oscillator: omega dot equals negative epsilon times F times the quantity y divided by the square root of x squared plus y squared." loading="lazy" decoding="async">
+</figure>
 
 The learning rule governs the dynamics of omega, which is the control parameter for oscillator natural frequency in the Hopf oscillator. F, again, is the input signal, and epsilon controls the learning rate of the system. Below, I run several numerical simulations of a Hopf oscillator with adaptive-frequency dynamics to qualitatively assess the learning dynamics of the Hebbian learning rule. We start by simulating the frequency adaption of the Hopf oscillator for several initial conditions of the oscillator’s natural frequency (omega_0) to observe whether the oscillator correctly “learns” the frequency of the external input signal. In this simulation, a Hopf oscillator is being driven by periodic forcing at 30 Hz. Examining the dynamics of oscillator frequency for several initial conditions (omega_0 = 18, 26, 36, 40 Hz), we find that, for all initial conditions, the frequency of the oscillator converges to the frequency of the external input signal—30 Hz. (Moreover, for all initial conditions, there is a momentary increase in the variability of oscillator frequency right before the oscillator synchronizes to the external signal at its learned frequency.)
 
-<p align="center">
-  <img src="/img/Hopf_MultipleW0s.png"/>
+<figure class="text-center">
+  <img src="/img/Hopf_MultipleW0s.png" alt="Line plot of oscillator frequency over time for four initial conditions (omega 0 = 18, 26, 36, and 40 Hz) converging to the 30 Hz input signal." width="599" height="228" loading="lazy" decoding="async">
   <figcaption>
-                <font size="2">Simulation of an adaptive-frequency Hopf oscillator with multiple intitial conditions for oscillator natural frequency (omega).
-				Here, x = 0, y = 1, e = 1, and m = 1, with cos(30t) as the input signal. </font>
-</figcaption>
-</p>
+    Simulation of an adaptive-frequency Hopf oscillator with multiple intitial conditions for oscillator natural frequency (omega). Here, x = 0, y = 1, e = 1, and m = 1, with cos(30t) as the input signal.
+  </figcaption>
+</figure>
 
 In the time domain, we can also clearly identify the moment when an oscillator learns the frequency of the input signal and enters a phase-locked relationship with the input signal. Let’s run a similar simulation with a slower input signal of 3 Hz, as we can more readily observe the dynamics of frequency adaptation in the time. With an initial condition of omega_0 = 10 Hz, we observe that an initial 10-Hz Hopf oscillator successfully “learns” the frequency of the 3-Hz input signal, as evinced by the dynamics of the oscillator’s natural frequency (i.e., omega). This learning is also evident in the time domain: as the Hopf oscillator nears the moment of synchronization (time 120 - 140), the phase of the oscillator fluctuates wildly before settling in lock-step with the driving signal. (The gif below shows the simulation from time 120 – 140, right before and after the oscillator learns the frequency of the input signal.)
 
 
-<p align="center">
-<img src="/img/Hopf_PhaseP2.gif">
-<figcaption>  <font size="2">Simulation of an adaptive-frequency Hopf oscillator that learns the frequency of a 3-Hz input signal. Top: Trajectory through phase space of the Hopf oscillator. Middle: Changes in oscillator naturally frequency (i.e., omega) over time. The horizontal dashed line denotes the target frequency of 3 Hz.
-Bottom: Time series of the Hopf oscillator (y component, purple line) and the 3-Hz input signal (dashed line). Here, x = 0, y = 1, e = 1, and m = 1. </font>
+<figure class="text-center">
+  <picture>
+    <source srcset="/img/Hopf_PhaseP2.webp" type="image/webp">
+    <img src="/img/Hopf_PhaseP2-poster.png" alt="Animated simulation of an adaptive-frequency Hopf oscillator learning a 3 Hz input signal. The top panel shows a limit cycle in phase space with a marker tracing part of the trajectory; the middle panel shows oscillator frequency declining toward a dashed 3 Hz target line; the bottom panel shows the oscillator output oscillating in phase with the input signal." width="380" height="651" loading="lazy" decoding="async">
+  </picture>
+<figcaption>
+  Simulation of an adaptive-frequency Hopf oscillator that learns the frequency of a 3-Hz input signal. Top: Trajectory through phase space of the Hopf oscillator. Middle: Changes in oscillator naturally frequency (i.e., omega) over time. The horizontal dashed line denotes the target frequency of 3 Hz. Bottom: Time series of the Hopf oscillator (y component, purple line) and the 3-Hz input signal (dashed line). Here, x = 0, y = 1, e = 1, and m = 1.
 </figcaption>
-</p>
+</figure>
 
 
 Next, we can investigate the effect of the learning rate, the epsilon parameter, on the dynamics of frequency adaptation. I aimed to replicate Figure 2 from the manuscript, which reports the effect of increasing the learning rate on the dynamics of frequency adaption. Similar to our first simulation, the oscillator is being driven by periodic forcing at 30 Hz, but now we vary the epsilon parameter, which controls the learning rate of the system. The initial condition of oscillator natural frequency is set to 40 Hz for several learning rates. Unsurprisingly, a slower learning rate requires more time for the oscillator to learn the frequency of the external signal (epsilon = 1 converges < 500 time, while epsilon = 0.4 converges > 2000 time). However, it is clear that the learning rate controls the overall timescale of frequency adaption.
 
-<p align="center">
-  <img src="/img/Righetti_Fig2.png"/>
-   <figcaption>
-                <font size="2"> Replicating figure 2 from Righetti et al., (2006). The effect of different learning rates (epsilon) on frequency adaptation. </font>
-</figcaption>
-</p>
+<figure class="text-center">
+  <img src="/img/Righetti_Fig2.png" alt="Reproduction of figure 2 from Righetti et al. (2006), showing oscillator frequency over time for three learning rates (epsilon), where a smaller epsilon takes longer to converge to the 30 Hz input frequency." width="606" height="298" loading="lazy" decoding="async">
+  <figcaption>
+    Replicating figure 2 from Righetti et al., (2006). The effect of different learning rates (epsilon) on frequency adaptation.
+  </figcaption>
+</figure>
 
 Finally, I explored whether an adaptive-frequency Hopf oscillator can learn the frequency content of a complex input signal. First, we create a complex signal containing multiple frequencies; in this example, a complex waveform containing a fundamental frequency of 3 Hz (F0) and two harmonics at 6 Hz (F1) and 9 Hz (F2). We simulate the model for the initial conditions, omego_0 = 1, 4, 5, 10 Hz. Plotting omega over time for each initial condition, we see that the 1-Hz oscillator learns the 3-Hz component of the input signal. This is also the result for the 4 Hz oscillator. (Interestingly though, the 4-Hz oscillator starts to increase in frequency during the beginning of the simulation until it tunes its natural frequency to  ~ 5 Hz, then it slows down, heading towards the 3 Hz component of the input signal). The 5-Hz oscillator learns the 6-Hz component, and the 10-Hz oscillator learns the 9-Hz component. 
 
-<p align="center">
-  <img src="/img/Hopf_MultiFreq.png"/>
-   <figcaption>
-                <font size="2"> Adaptive-frequency dynamics for a complex input signal. Depending on the Hopf oscillator's initial natural frequency (omega), the oscillator will "learn" a different frequency component of the input signal (horizontal dashed lines).
-				Here, x = 0, y = 1, e = 1, and m = 1. </font>
-</figcaption>
-</p>
+<figure class="text-center">
+  <img src="/img/Hopf_MultiFreq.png" alt="Four stacked line plots of oscillator frequency over time for initial conditions of 1, 4, 5, and 10 Hz, each converging to a different dashed target frequency of 3, 3, 6, or 9 Hz respectively." width="560" height="420" loading="lazy" decoding="async">
+  <figcaption>
+    Adaptive-frequency dynamics for a complex input signal. Depending on the Hopf oscillator's initial natural frequency (omega), the oscillator will "learn" a different frequency component of the input signal (horizontal dashed lines). Here, x = 0, y = 1, e = 1, and m = 1.
+  </figcaption>
+</figure>
 
 In the time domain, we can clearly see how the oscillators align with the events in the complex waveform. For instance, after learning the new frequency, the 1-Hz oscillator phase-locks to the second high-amplitude event; the 4-Hz oscillator also phase-locks to the second high-amplitude event; the 5-Hz oscillator phase locks to both high-amplitude events; and the 10-Hz oscillator phase-locks to the all the events (e.g., those low-amplitude peaks and the high-amplitude peaks).
 
-<p align="center">
-  <img src="/img/Hopf_MultiFreqTimeDomain.png"/>
-     <figcaption>
-                <font size="2"> Time series of adaptive-frequency dynamics of Hopf oscillator (y component) to a complex input signal. Different Hopf oscillators phase-lock to different events in the complex waveform.
-				Here, x = 0, y = 1, e = 1, and m = 1. </font>
-</figcaption>
-</p>
+<figure class="text-center">
+  <img src="/img/Hopf_MultiFreqTimeDomain.png" alt="Time series of four Hopf oscillators responding to a complex input signal, each phase-locking to a different high-amplitude event in the waveform." width="1400" height="600" loading="lazy" decoding="async">
+  <figcaption>
+    Time series of adaptive-frequency dynamics of Hopf oscillator (y component) to a complex input signal. Different Hopf oscillators phase-lock to different events in the complex waveform. Here, x = 0, y = 1, e = 1, and m = 1.
+  </figcaption>
+</figure>
 
