@@ -1,16 +1,16 @@
 ---
 layout: page
 title: "Research & Outreach"
-description: "Archived research overview from a previous chapter of my career."
-nav: false
-archived: true
+description: "Research on rhythm cognition, from infants through aging."
+nav: true
+nav_order: 6
 header-img: "img/Banner.jpg"
 ---
 
 ## General Research Interests
 
 <figure class="text-center">
-        <img src="/img/PhillipsSilver_Network.png" alt="Diagram of the dynamical systems model of infant rhythm perception, showing interacting neural and behavioral oscillator components." width="500" height="368" loading="lazy" decoding="async" style="margin: 0 25px 25px;" />
+        <img src="/img/PhillipsSilver_Network.png" alt="Diagram of the dynamical systems model of infant rhythm perception, showing interacting neural and behavioral oscillator components." width="500" height="368" loading="lazy" decoding="async" />
         <figcaption>Dynamical systems model of infant rhythm perception (Tichko et al., 2021).</figcaption>
 </figure>
 
@@ -28,10 +28,12 @@ ___
 
 ### Dynamical Systems Models of Music Development
 
-<div class="left_figure"><figure>
-        <img src="/img/TichkoLarge2019.png" alt="Diagram of the oscillatory model of infant rhythm perception, showing two coupled Hopf oscillators." style="float: right" width="400" height="232" loading="lazy" decoding="async" />
-        <figcaption>Oscillatory model of infant rhythm perception (Tichko & Large, 2019).</figcaption>
-</figure></div>
+<div class="left_figure" style="width: 400px;">
+<figure>
+        <img src="/img/TichkoLarge2019.png" alt="Diagram of the oscillatory model of infant rhythm perception, showing two coupled Hopf oscillators." width="400" height="232" loading="lazy" decoding="async" />
+        <figcaption>Oscillatory model of infant rhythm perception (Tichko &amp; Large, 2019).</figcaption>
+</figure>
+</div>
 
 Over the course of development, typically developing infants and children learn to coordinate perception-action to culture-specific rhythmic structures that constitute their native music. How does our perception of and our ability to coordinate action to musical rhythm change across development? Further, what developmental mechanisms might explain these changes?
 
@@ -41,10 +43,12 @@ ___
 
 ### Neural Encoding in the Auditory System
 
-<div class="left_figure"><figure>
-	<img src="/img/FFR_G5.png" alt="Computational model of the frequency-following response, showing a schematic of auditory nerve fibers phase-locking to a tone." style="float: left" width="400" height="300" loading="lazy" decoding="async" />
-	<figcaption><em>Computational model of the frequency-following response (Tichko & Skoe, 2017).</em></figcaption>
-</figure></div>
+<div class="left_figure" style="width: 400px;">
+<figure>
+	<img src="/img/FFR_G5.png" alt="Computational model of the frequency-following response, showing a schematic of auditory nerve fibers phase-locking to a tone." width="400" height="300" loading="lazy" decoding="async" />
+	<figcaption><em>Computational model of the frequency-following response (Tichko &amp; Skoe, 2017).</em></figcaption>
+</figure>
+</div>
 
 In a seperate line of work, I am investigating phase-locked responses in the auditory system (e.g., the frequency-following response) and relations between auditory processing in the brainstem (e.g., the auditory brainstem response) and higher-level skills, such as reading and language. Current work suggests that changes in the spectral amplitude of the frequency-following response, when recorded at the scalp, may reflect patterns of phase construction and deconstruction of multiple, phase-locked signals throughout the auditory system. Other work suggests that temporal processing in the brainstem (e.g., neural-conduction times) relate to reading subskills, even in adulthood. 
 
@@ -52,10 +56,12 @@ ___
 
 ### Music-Based Interventions for Dementia
 
-<div class="left_figure"><figure>
-	<img src="/img/GammaMBIs.png" alt="Diagram of the gamma music-based intervention, pairing rhythmic music with visual gamma-frequency stimulation." style="float: left" width="400" height="338" loading="lazy" decoding="async" />
-	<figcaption><em>Gamma Music-Based Interventions (Tichko, Kim, Large, & Loui, 2020).</em></figcaption>
-</figure></div>
+<div class="left_figure" style="width: 400px;">
+<figure>
+	<img src="/img/GammaMBIs.png" alt="Diagram of the gamma music-based intervention, pairing rhythmic music with visual gamma-frequency stimulation." width="400" height="338" loading="lazy" decoding="async" />
+	<figcaption><em>Gamma Music-Based Interventions (Tichko, Kim, Large, &amp; Loui, 2020).</em></figcaption>
+</figure>
+</div>
 
 Recently, I've become interested in how the rhythmic properties of music can be leveraged as a non-invasive form of brain stimulation. My colleagues and I are currently developing a non-invasive music-based intervention for treating dementia and cognitive decline during aging that uses both natural music and visual Gamma stimulation to target biomarkers of dementia and improve cognition.
 

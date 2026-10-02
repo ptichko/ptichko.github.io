@@ -434,17 +434,65 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #0085A1;
 }
-.left_figure {
-  display: inline-block;
-  float: left;
-}
+.left_figure,
 .right_figure {
   display: inline-block;
+  float: left;
+  max-width: 100%;
+}
+.left_figure figure,
+.right_figure figure {
+  margin: 0;
+}
+.left_figure img,
+.right_figure img {
+  float: none !important;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.left_figure figcaption,
+.right_figure figcaption {
+  float: none !important;
+  display: block;
+}
+.right_figure {
   float: right;
 }
 figure img {
   vertical-align: top;
+  max-width: 100%;
+  height: auto;
 }
 figure figcaption {
+  font-size: 14px;
+  color: #404040;
+  font-style: normal;
   text-align: center;
+  /* Clear any floated image inside the figure, otherwise the caption text
+	   wraps alongside the image instead of sitting below it. */
+  clear: both;
+  padding-top: 10px;
+}
+figure.text-center {
+  text-align: center;
+}
+.about-portrait {
+  float: left;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  max-width: 100%;
+}
+.about-portrait figure {
+  margin-bottom: 0;
+}
+.about-portrait img {
+  max-width: 100%;
+  height: auto;
+}
+.about-portrait figcaption {
+  font-size: 14px;
+  color: #404040;
+  margin-top: 8px;
+  text-align: left;
 }

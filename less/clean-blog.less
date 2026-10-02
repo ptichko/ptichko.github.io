@@ -501,22 +501,58 @@ body {
 	-webkit-tap-highlight-color: @brand-primary;
 }
 
-.left_figure {
+// Figures floated alongside body text. The wrapper is the float. Everything
+// inside is non-floated so the caption sits directly under the image, and the
+// caption is clamped to the image width so it cannot bleed into the
+// surrounding paragraph.
+// Figures floated alongside body text. The wrapper is the float. Everything
+// inside is non-floated so the caption sits directly under the image. The
+// wrapper takes an explicit width (see the `style` attribute on each
+// .left_figure in the markdown), which is what pins the caption to the image
+// width; without it the wrapper shrink-wraps to the caption's intrinsic width
+// and the caption overflows past the image.
+.left_figure,
+.right_figure {
 	display: inline-block;
 	float: left;
+	max-width: 100%;
+
+	figure {
+		margin: 0;
+	}
+
+	img {
+		float: none !important;
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
+
+	figcaption {
+		float: none !important;
+		display: block;
+	}
 }
 
 .right_figure {
-	display: inline-block;
 	float: right;
 }
 
 figure img {
 	vertical-align: top;
+	max-width: 100%;
+	height: auto;
 }
 
 figure figcaption {
+	font-size: 14px;
+	color: @gray-dark;
+	font-style: normal;
 	text-align: center;
+	/* Clear any floated image inside the figure, otherwise the caption text
+	   wraps alongside the image instead of sitting below it. */
+	clear: both;
+	padding-top: 10px;
 }
 
 figure.text-center {
@@ -542,5 +578,6 @@ figure.text-center {
 		font-size: 14px;
 		color: @gray-dark;
 		margin-top: 8px;
+		text-align: left;
 	}
 }
