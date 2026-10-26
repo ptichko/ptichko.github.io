@@ -12,6 +12,8 @@ My full CV is here <a href="/CV/PT_CV.pdf" target="_blank" rel="noopener"><i cla
 ___
 
 ## Publications
+ Nave, K. M., Hannon, E. E., Snyder, J. S., Alexandrov, E., Allen, S. C., Barbosa, F., Breen, M., Celma-Miralles, A., Chain, T., de Leeuw, J. R., Ferreira-Santos, F., Fitzroy, A. B., Geng, N., Gilmore, S. A., Gordon, R. L., Grahn, J. A., Har-Shai Yahav, P., Holm, K., Huettig, F., Keitel, A., Keitel, C., Ladanyi, E., Liu, Y., Loui, P., Lourie, G. A., Macedo, I., Magne, C. L., Møller, C., Moreau, D., Nayak, S., Ostarek, M., Pan, D., Pasion, R., Pereira, M. R., Pinto, D. S., Poort, E. D., Renzelman, M., Russo, F. A., Stupacher, J., **Tichko, P.**, Wight, L., Yu, C. Y. & Zion Golumbic, E. M. (2026). [Registered Report: Replication and Extension of Nozaradan et al. (2011).](https://journals.sagepub.com/doi/10.1177/25152459261443491) Advances in Methods and Practices in Psychological Science.
+
  **Tichko, P.** & Kohn, G. (2026). [Is there a poverty of the stimulus? Lessons from developmental systems.](https://psycnet.apa.org/doiLanding?doi=10.1037%2Fteo0000364) Journal of Theoretical and Philosophical Psychology.
 
 Large, E., Harding, E.E.,Kim, J.C., Demos, A.P., Roman, I.R., **Tichko, P.** & Palmer, C. (2026). [Reply to ‘Musical neurodynamics and the ‘inner voice’’](https://www.nature.com/articles/s41583-026-01039-z) Nature Reviews Neuroscience.
